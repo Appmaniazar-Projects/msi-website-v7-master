@@ -13,6 +13,41 @@ const nextConfig = {
       pathname: '/images/**',
     }],
   },
+  async headers() {
+    return [
+      {
+        // Apply to all routes
+        source: '/api/:path*',
+        headers: [
+          {
+            key: 'Access-Control-Allow-Origin',
+            value: '*', // Configure this to your specific domains in production
+          },
+          {
+            key: 'Access-Control-Allow-Methods',
+            value: 'GET, POST, PUT, DELETE, OPTIONS',
+          },
+          {
+            key: 'Access-Control-Allow-Headers',
+            value: 'X-Requested-With, Content-Type, Accept',
+          },
+          {
+            key: 'Cache-Control',
+            value: 'public, max-age=3600, stale-while-revalidate=60',
+          },
+        ],
+      },
+      {
+        source: '/:path*',
+        headers: [
+          {
+            key: 'Cache-Control',
+            value: 'public, max-age=3600, stale-while-revalidate=60',
+          },
+        ],
+      },
+    ];
+  },
 };
 
 const withMDX = require('@next/mdx')({
