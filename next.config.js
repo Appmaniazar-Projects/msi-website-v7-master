@@ -2,12 +2,13 @@
 const nextConfig = {
   experimental: {
     mdxRs: true,
+    serverActions: true,
   },
+  output:'standalone',
   pageExtensions: ['js', 'jsx', 'ts', 'tsx', 'md', 'mdx'],
   images: {
     remotePatterns: [{
       protocol: 'https',
-      //hostname: 'https://d1dc40k4xbphr.cloudfront.net',
       hostname:'d1dc40k4xbphr.cloudfront.net',
       pathname: '/images/**',
     }],
