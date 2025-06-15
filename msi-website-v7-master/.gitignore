@@ -1,0 +1,12 @@
+# Ignore Vercel deployment files
+.vercel
+
+# Ignore environment variable files
+.env
+
+# Ignore node_modules
+node_modules
+
+# Ignore Next.js build and cache files
+.next/
+.next/cache/

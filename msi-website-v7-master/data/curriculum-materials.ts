@@ -1,0 +1,1351 @@
+// Auto-generated file - do not edit manually
+
+export const allCurriculumMaterials = [
+  {
+    "filename": "2022 GR10 SUMMATIVE ASSESSMENT T2 MEMO.pdf",
+    "subject": "MATHS",
+    "grade": "GRADE 10",
+    "fullPath": "MATHS/GRADE 10/ASSESSMENTS/2022 GR10 SUMMATIVE ASSESSMENT T2 MEMO.pdf",
+    "size": 812.03,
+    "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FMATHS%2FGRADE%2010%2FASSESSMENTS%2F2022%20GR10%20SUMMATIVE%20ASSESSMENT%20T2%20MEMO.pdf",
+    "key": "MSI CURRICULUM MATERIAL/MATHS/GRADE 10/ASSESSMENTS/2022 GR10 SUMMATIVE ASSESSMENT T2 MEMO.pdf"
+  },
+  {
+    "filename": "2022 GR10 SUMMATIVE ASSESSMENT T2.pdf",
+    "subject": "MATHS",
+    "grade": "GRADE 10",
+    "fullPath": "MATHS/GRADE 10/ASSESSMENTS/2022 GR10 SUMMATIVE ASSESSMENT T2.pdf",
+    "size": 770.86,
+    "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FMATHS%2FGRADE%2010%2FASSESSMENTS%2F2022%20GR10%20SUMMATIVE%20ASSESSMENT%20T2.pdf",
+    "key": "MSI CURRICULUM MATERIAL/MATHS/GRADE 10/ASSESSMENTS/2022 GR10 SUMMATIVE ASSESSMENT T2.pdf"
+  },
+  {
+    "filename": "GRADE 10 TEST ANALYTICAL GEOMETRY.docx",
+    "subject": "MATHS",
+    "grade": "GRADE 10",
+    "fullPath": "MATHS/GRADE 10/ASSESSMENTS/GRADE 10 TEST ANALYTICAL GEOMETRY.docx",
+    "size": 232.69,
+    "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FMATHS%2FGRADE%2010%2FASSESSMENTS%2FGRADE%2010%20TEST%20ANALYTICAL%20GEOMETRY.docx",
+    "key": "MSI CURRICULUM MATERIAL/MATHS/GRADE 10/ASSESSMENTS/GRADE 10 TEST ANALYTICAL GEOMETRY.docx"
+  },
+  {
+    "filename": "GRADE 10 TEST FUNCTIONS.docx",
+    "subject": "MATHS",
+    "grade": "GRADE 10",
+    "fullPath": "MATHS/GRADE 10/ASSESSMENTS/GRADE 10 TEST FUNCTIONS.docx",
+    "size": 248.25,
+    "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FMATHS%2FGRADE%2010%2FASSESSMENTS%2FGRADE%2010%20TEST%20FUNCTIONS.docx",
+    "key": "MSI CURRICULUM MATERIAL/MATHS/GRADE 10/ASSESSMENTS/GRADE 10 TEST FUNCTIONS.docx"
+  },
+  {
+    "filename": "GRADE 10 TEST NUMBER PATTERNS.docx",
+    "subject": "MATHS",
+    "grade": "GRADE 10",
+    "fullPath": "MATHS/GRADE 10/ASSESSMENTS/GRADE 10 TEST NUMBER PATTERNS.docx",
+    "size": 261.11,
+    "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FMATHS%2FGRADE%2010%2FASSESSMENTS%2FGRADE%2010%20TEST%20NUMBER%20PATTERNS.docx",
+    "key": "MSI CURRICULUM MATERIAL/MATHS/GRADE 10/ASSESSMENTS/GRADE 10 TEST NUMBER PATTERNS.docx"
+  },
+  {
+    "filename": "2022 Grdae 10 Summative Assessment Term 1.pdf",
+    "subject": "PHYSICAL SCIENCE",
+    "grade": "GRADE 10",
+    "fullPath": "PHYSICAL SCIENCE/GRADE 10/ASSESSMENTS/2022 Grdae 10 Summative Assessment Term 1.pdf",
+    "size": 884.26,
+    "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2010%2FASSESSMENTS%2F2022%20Grdae%2010%20Summative%20Assessment%20Term%201.pdf",
+    "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 10/ASSESSMENTS/2022 Grdae 10 Summative Assessment Term 1.pdf"
+  },
+  {
+    "filename": "Memo Grade 10 Summative Assessment Term 3.pdf",
+    "subject": "PHYSICAL SCIENCE",
+    "grade": "GRADE 10",
+    "fullPath": "PHYSICAL SCIENCE/GRADE 10/ASSESSMENTS/Memo Grade 10 Summative Assessment Term 3.pdf",
+    "size": 802.26,
+    "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2010%2FASSESSMENTS%2FMemo%20Grade%2010%20Summative%20Assessment%20Term%203.pdf",
+    "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 10/ASSESSMENTS/Memo Grade 10 Summative Assessment Term 3.pdf"
+  },
+  {
+    "filename": "Electricity and Magnetism  - Grade 10 Term 1 Topic Test.pdf",
+    "subject": "PHYSICAL SCIENCE",
+    "grade": "GRADE 10",
+    "fullPath": "PHYSICAL SCIENCE/GRADE 10/TOPICS/Electricity and Magnetism  - Grade 10 Term 1 Topic Test.pdf",
+    "size": 697.18,
+    "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2010%2FTOPICS%2FElectricity%20and%20Magnetism%20%20-%20Grade%2010%20Term%201%20Topic%20Test.pdf",
+    "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 10/TOPICS/Electricity and Magnetism  - Grade 10 Term 1 Topic Test.pdf"
+  },
+  {
+    "filename": "Waves Sound and Light  - Grade 10 Term 1 Topic Test.pdf",
+    "subject": "PHYSICAL SCIENCE",
+    "grade": "GRADE 10",
+    "fullPath": "PHYSICAL SCIENCE/GRADE 10/TOPICS/Waves Sound and Light  - Grade 10 Term 1 Topic Test.pdf",
+    "size": 621.01,
+    "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2010%2FTOPICS%2FWaves%20Sound%20and%20Light%20%20-%20Grade%2010%20Term%201%20Topic%20Test.pdf",
+    "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 10/TOPICS/Waves Sound and Light  - Grade 10 Term 1 Topic Test.pdf"
+  },
+  {
+    "filename": "NEWTONS LAWS TEST 1 GRADE 11.pdf",
+    "subject": "PHYSICAL SCIENCE",
+    "grade": "GRADE 11",
+    "fullPath": "PHYSICAL SCIENCE/GRADE 11/ASSESSMENTS/NEWTONS LAWS TEST 1 GRADE 11.pdf",
+    "size": 247.98,
+    "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2011%2FASSESSMENTS%2FNEWTONS%20LAWS%20TEST%201%20GRADE%2011.pdf",
+    "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 11/ASSESSMENTS/NEWTONS LAWS TEST 1 GRADE 11.pdf"
+  },
+  {
+    "filename": "NEWTONS LAWS TEST 2 GRADE 11.pdf",
+    "subject": "PHYSICAL SCIENCE",
+    "grade": "GRADE 11",
+    "fullPath": "PHYSICAL SCIENCE/GRADE 11/ASSESSMENTS/NEWTONS LAWS TEST 2 GRADE 11.pdf",
+    "size": 249.06,
+    "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2011%2FASSESSMENTS%2FNEWTONS%20LAWS%20TEST%202%20GRADE%2011.pdf",
+    "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 11/ASSESSMENTS/NEWTONS LAWS TEST 2 GRADE 11.pdf"
+  },
+  {
+    "filename": "NEWTONS LAWS TEST 3 GRADE 11.pdf",
+    "subject": "PHYSICAL SCIENCE",
+    "grade": "GRADE 11",
+    "fullPath": "PHYSICAL SCIENCE/GRADE 11/ASSESSMENTS/NEWTONS LAWS TEST 3 GRADE 11.pdf",
+    "size": 239.66,
+    "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2011%2FASSESSMENTS%2FNEWTONS%20LAWS%20TEST%203%20GRADE%2011.pdf",
+    "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 11/ASSESSMENTS/NEWTONS LAWS TEST 3 GRADE 11.pdf"
+  },
+  {
+    "filename": "Topic Test 1 - Vectors in 2D - Grade 11 - Term 1.pdf",
+    "subject": "PHYSICAL SCIENCE",
+    "grade": "GRADE 11",
+    "fullPath": "PHYSICAL SCIENCE/GRADE 11/ASSESSMENTS/Topic Test 1 - Vectors in 2D - Grade 11 - Term 1.pdf",
+    "size": 732.93,
+    "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2011%2FASSESSMENTS%2FTopic%20Test%201%20-%20Vectors%20in%202D%20-%20Grade%2011%20-%20Term%201.pdf",
+    "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 11/ASSESSMENTS/Topic Test 1 - Vectors in 2D - Grade 11 - Term 1.pdf"
+  },
+  {
+    "filename": "Topic Test 2 - Newtons Laws of Mootion - Grade 11 - Term 1 (Final Version).pdf",
+    "subject": "PHYSICAL SCIENCE",
+    "grade": "GRADE 11",
+    "fullPath": "PHYSICAL SCIENCE/GRADE 11/ASSESSMENTS/Topic Test 2 - Newtons Laws of Mootion - Grade 11 - Term 1 (Final Version).pdf",
+    "size": 663.09,
+    "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2011%2FASSESSMENTS%2FTopic%20Test%202%20-%20Newtons%20Laws%20of%20Mootion%20-%20Grade%2011%20-%20Term%201%20(Final%20Version).pdf",
+    "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 11/ASSESSMENTS/Topic Test 2 - Newtons Laws of Mootion - Grade 11 - Term 1 (Final Version).pdf"
+  },
+  {
+    "filename": "Topic Test 2 - Newtons Laws of Mootion - Grade 11 - Term 1.pdf",
+    "subject": "PHYSICAL SCIENCE",
+    "grade": "GRADE 11",
+    "fullPath": "PHYSICAL SCIENCE/GRADE 11/ASSESSMENTS/Topic Test 2 - Newtons Laws of Mootion - Grade 11 - Term 1.pdf",
+    "size": 649.15,
+    "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2011%2FASSESSMENTS%2FTopic%20Test%202%20-%20Newtons%20Laws%20of%20Mootion%20-%20Grade%2011%20-%20Term%201.pdf",
+    "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 11/ASSESSMENTS/Topic Test 2 - Newtons Laws of Mootion - Grade 11 - Term 1.pdf"
+  },
+  {
+    "filename": "Grade 12 Term 1 Test 1 - Vertical Projectile Motion.pdf",
+    "subject": "PHYSICAL SCIENCE",
+    "grade": "GRADE 12",
+    "fullPath": "PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/Grade 12 Term 1 Test 1 - Vertical Projectile Motion.pdf",
+    "size": 711.64,
+    "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FASSESSMENTS%2FGrade%2012%20Term%201%20Test%201%20-%20Vertical%20Projectile%20Motion.pdf",
+    "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/Grade 12 Term 1 Test 1 - Vertical Projectile Motion.pdf"
+  },
+  {
+    "filename": "MOMENTUM ^0 IMPULSE TEST 12 MEMO.pdf",
+    "subject": "PHYSICAL SCIENCE",
+    "grade": "GRADE 12",
+    "fullPath": "PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/MOMENTUM ^0 IMPULSE TEST 12 MEMO.pdf",
+    "size": 185.19,
+    "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FASSESSMENTS%2FMOMENTUM%20%5E0%20IMPULSE%20TEST%2012%20MEMO.pdf",
+    "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/MOMENTUM ^0 IMPULSE TEST 12 MEMO.pdf"
+  },
+  {
+    "filename": "MOMENTUM ^0 IMPUSLE TEST 12.pdf",
+    "subject": "PHYSICAL SCIENCE",
+    "grade": "GRADE 12",
+    "fullPath": "PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/MOMENTUM ^0 IMPUSLE TEST 12.pdf",
+    "size": 193.7,
+    "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FASSESSMENTS%2FMOMENTUM%20%5E0%20IMPUSLE%20TEST%2012.pdf",
+    "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/MOMENTUM ^0 IMPUSLE TEST 12.pdf"
+  },
+  {
+    "filename": "MSI ACIDS & BASES QUESTIONS.pdf",
+    "subject": "PHYSICAL SCIENCE",
+    "grade": "GRADE 12",
+    "fullPath": "PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/MSI ACIDS & BASES QUESTIONS.pdf",
+    "size": 1557.13,
+    "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FASSESSMENTS%2FMSI%20ACIDS%20%26%20BASES%20QUESTIONS.pdf",
+    "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/MSI ACIDS & BASES QUESTIONS.pdf"
+  },
+  {
+    "filename": "MSI DOPPLER EFFECT MEMO.pdf",
+    "subject": "PHYSICAL SCIENCE",
+    "grade": "GRADE 12",
+    "fullPath": "PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/MSI DOPPLER EFFECT MEMO.pdf",
+    "size": 1519.92,
+    "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FASSESSMENTS%2FMSI%20DOPPLER%20EFFECT%20MEMO.pdf",
+    "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/MSI DOPPLER EFFECT MEMO.pdf"
+  },
+  {
+    "filename": "MSI DOPPLER EFFECT QUESTIONS.pdf",
+    "subject": "PHYSICAL SCIENCE",
+    "grade": "GRADE 12",
+    "fullPath": "PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/MSI DOPPLER EFFECT QUESTIONS.pdf",
+    "size": 1729.08,
+    "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FASSESSMENTS%2FMSI%20DOPPLER%20EFFECT%20QUESTIONS.pdf",
+    "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/MSI DOPPLER EFFECT QUESTIONS.pdf"
+  },
+  {
+    "filename": "MSI ELECTRIC CIRCUITS MEMO.pdf",
+    "subject": "PHYSICAL SCIENCE",
+    "grade": "GRADE 12",
+    "fullPath": "PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/MSI ELECTRIC CIRCUITS MEMO.pdf",
+    "size": 2027,
+    "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FASSESSMENTS%2FMSI%20ELECTRIC%20CIRCUITS%20MEMO.pdf",
+    "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/MSI ELECTRIC CIRCUITS MEMO.pdf"
+  },
+  {
+    "filename": "MSI ELECTRIC CIRCUITS QUESTIONS.pdf",
+    "subject": "PHYSICAL SCIENCE",
+    "grade": "GRADE 12",
+    "fullPath": "PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/MSI ELECTRIC CIRCUITS QUESTIONS.pdf",
+    "size": 2261.7,
+    "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FASSESSMENTS%2FMSI%20ELECTRIC%20CIRCUITS%20QUESTIONS.pdf",
+    "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/MSI ELECTRIC CIRCUITS QUESTIONS.pdf"
+  },
+  {
+    "filename": "MSI ELECTROCHEMICAL CELLS MEMO.pdf",
+    "subject": "PHYSICAL SCIENCE",
+    "grade": "GRADE 12",
+    "fullPath": "PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/MSI ELECTROCHEMICAL CELLS MEMO.pdf",
+    "size": 2197.98,
+    "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FASSESSMENTS%2FMSI%20ELECTROCHEMICAL%20CELLS%20MEMO.pdf",
+    "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/MSI ELECTROCHEMICAL CELLS MEMO.pdf"
+  },
+  {
+    "filename": "MSI ELECTROCHEMICAL CELLS QUESTIONS.pdf",
+    "subject": "PHYSICAL SCIENCE",
+    "grade": "GRADE 12",
+    "fullPath": "PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/MSI ELECTROCHEMICAL CELLS QUESTIONS.pdf",
+    "size": 4635.32,
+    "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FASSESSMENTS%2FMSI%20ELECTROCHEMICAL%20CELLS%20QUESTIONS.pdf",
+    "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/MSI ELECTROCHEMICAL CELLS QUESTIONS.pdf"
+  },
+  {
+    "filename": "MSI ELECTRODYNAMICS MEMO.pdf",
+    "subject": "PHYSICAL SCIENCE",
+    "grade": "GRADE 12",
+    "fullPath": "PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/MSI ELECTRODYNAMICS MEMO.pdf",
+    "size": 1679.71,
+    "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FASSESSMENTS%2FMSI%20ELECTRODYNAMICS%20MEMO.pdf",
+    "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/MSI ELECTRODYNAMICS MEMO.pdf"
+  },
+  {
+    "filename": "MSI ELECTRODYNAMICS QUESTIONS.pdf",
+    "subject": "PHYSICAL SCIENCE",
+    "grade": "GRADE 12",
+    "fullPath": "PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/MSI ELECTRODYNAMICS QUESTIONS.pdf",
+    "size": 2614.31,
+    "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FASSESSMENTS%2FMSI%20ELECTRODYNAMICS%20QUESTIONS.pdf",
+    "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/MSI ELECTRODYNAMICS QUESTIONS.pdf"
+  },
+  {
+    "filename": "MSI ELECTROSTATICS MEMO.pdf",
+    "subject": "PHYSICAL SCIENCE",
+    "grade": "GRADE 12",
+    "fullPath": "PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/MSI ELECTROSTATICS MEMO.pdf",
+    "size": 2301.56,
+    "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FASSESSMENTS%2FMSI%20ELECTROSTATICS%20MEMO.pdf",
+    "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/MSI ELECTROSTATICS MEMO.pdf"
+  },
+  {
+    "filename": "MSI ELECTROSTATICS QUESTIONS.pdf",
+    "subject": "PHYSICAL SCIENCE",
+    "grade": "GRADE 12",
+    "fullPath": "PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/MSI ELECTROSTATICS QUESTIONS.pdf",
+    "size": 1541.11,
+    "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FASSESSMENTS%2FMSI%20ELECTROSTATICS%20QUESTIONS.pdf",
+    "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/MSI ELECTROSTATICS QUESTIONS.pdf"
+  },
+  {
+    "filename": "MSI FERTILIZERS MEMO.pdf",
+    "subject": "PHYSICAL SCIENCE",
+    "grade": "GRADE 12",
+    "fullPath": "PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/MSI FERTILIZERS MEMO.pdf",
+    "size": 2171.59,
+    "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FASSESSMENTS%2FMSI%20FERTILIZERS%20MEMO.pdf",
+    "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/MSI FERTILIZERS MEMO.pdf"
+  },
+  {
+    "filename": "MSI FERTILIZERS QUESTIONS.pdf",
+    "subject": "PHYSICAL SCIENCE",
+    "grade": "GRADE 12",
+    "fullPath": "PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/MSI FERTILIZERS QUESTIONS.pdf",
+    "size": 2738.56,
+    "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FASSESSMENTS%2FMSI%20FERTILIZERS%20QUESTIONS.pdf",
+    "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/MSI FERTILIZERS QUESTIONS.pdf"
+  },
+  {
+    "filename": "MSI GR12 FIRST TERM PHYSICS MEMO.pdf",
+    "subject": "PHYSICAL SCIENCE",
+    "grade": "GRADE 12",
+    "fullPath": "PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/MSI GR12 FIRST TERM PHYSICS MEMO.pdf",
+    "size": 8657.75,
+    "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FASSESSMENTS%2FMSI%20GR12%20FIRST%20TERM%20PHYSICS%20MEMO.pdf",
+    "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/MSI GR12 FIRST TERM PHYSICS MEMO.pdf"
+  },
+  {
+    "filename": "MSI GR12 FIRST TERM PHYSICS QUESTIONS.pdf",
+    "subject": "PHYSICAL SCIENCE",
+    "grade": "GRADE 12",
+    "fullPath": "PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/MSI GR12 FIRST TERM PHYSICS QUESTIONS.pdf",
+    "size": 6476.79,
+    "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FASSESSMENTS%2FMSI%20GR12%20FIRST%20TERM%20PHYSICS%20QUESTIONS.pdf",
+    "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/MSI GR12 FIRST TERM PHYSICS QUESTIONS.pdf"
+  },
+  {
+    "filename": "MSI NETOWN_S LAWS OF MOTION QUESTIONS.pdf",
+    "subject": "PHYSICAL SCIENCE",
+    "grade": "GRADE 12",
+    "fullPath": "PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/MSI NETOWN_S LAWS OF MOTION QUESTIONS.pdf",
+    "size": 580.27,
+    "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FASSESSMENTS%2FMSI%20NETOWN_S%20LAWS%20OF%20MOTION%20QUESTIONS.pdf",
+    "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/MSI NETOWN_S LAWS OF MOTION QUESTIONS.pdf"
+  },
+  {
+    "filename": "MSI NEWTON_S LAWS MEMO.pdf",
+    "subject": "PHYSICAL SCIENCE",
+    "grade": "GRADE 12",
+    "fullPath": "PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/MSI NEWTON_S LAWS MEMO.pdf",
+    "size": 3594.38,
+    "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FASSESSMENTS%2FMSI%20NEWTON_S%20LAWS%20MEMO.pdf",
+    "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/MSI NEWTON_S LAWS MEMO.pdf"
+  },
+  {
+    "filename": "MSI NEWTON_S LAWS QUESTIONS.pdf",
+    "subject": "PHYSICAL SCIENCE",
+    "grade": "GRADE 12",
+    "fullPath": "PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/MSI NEWTON_S LAWS QUESTIONS.pdf",
+    "size": 3421.92,
+    "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FASSESSMENTS%2FMSI%20NEWTON_S%20LAWS%20QUESTIONS.pdf",
+    "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/MSI NEWTON_S LAWS QUESTIONS.pdf"
+  },
+  {
+    "filename": "MSI ORGANIC CHEM MEMO.pdf",
+    "subject": "PHYSICAL SCIENCE",
+    "grade": "GRADE 12",
+    "fullPath": "PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/MSI ORGANIC CHEM MEMO.pdf",
+    "size": 3000.7,
+    "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FASSESSMENTS%2FMSI%20ORGANIC%20CHEM%20MEMO.pdf",
+    "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/MSI ORGANIC CHEM MEMO.pdf"
+  },
+  {
+    "filename": "MSI ORGANIC CHEM QUESTIONS.pdf",
+    "subject": "PHYSICAL SCIENCE",
+    "grade": "GRADE 12",
+    "fullPath": "PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/MSI ORGANIC CHEM QUESTIONS.pdf",
+    "size": 4149.83,
+    "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FASSESSMENTS%2FMSI%20ORGANIC%20CHEM%20QUESTIONS.pdf",
+    "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/MSI ORGANIC CHEM QUESTIONS.pdf"
+  },
+  {
+    "filename": "MSI VERTICAL PROJECTILE MOTION MEMO.pdf",
+    "subject": "PHYSICAL SCIENCE",
+    "grade": "GRADE 12",
+    "fullPath": "PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/MSI VERTICAL PROJECTILE MOTION MEMO.pdf",
+    "size": 3584.38,
+    "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FASSESSMENTS%2FMSI%20VERTICAL%20PROJECTILE%20MOTION%20MEMO.pdf",
+    "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/MSI VERTICAL PROJECTILE MOTION MEMO.pdf"
+  },
+  {
+    "filename": "MSI VERTICAL PROJECTILE MOTION QUESTIONS.pdf",
+    "subject": "PHYSICAL SCIENCE",
+    "grade": "GRADE 12",
+    "fullPath": "PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/MSI VERTICAL PROJECTILE MOTION QUESTIONS.pdf",
+    "size": 1645.91,
+    "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FASSESSMENTS%2FMSI%20VERTICAL%20PROJECTILE%20MOTION%20QUESTIONS.pdf",
+    "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/MSI VERTICAL PROJECTILE MOTION QUESTIONS.pdf"
+  },
+  {
+    "filename": "MSI WORK- ENRGY THEOREM QUESTIONS.pdf",
+    "subject": "PHYSICAL SCIENCE",
+    "grade": "GRADE 12",
+    "fullPath": "PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/MSI WORK- ENRGY THEOREM QUESTIONS.pdf",
+    "size": 2916.99,
+    "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FASSESSMENTS%2FMSI%20WORK-%20ENRGY%20THEOREM%20QUESTIONS.pdf",
+    "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/MSI WORK- ENRGY THEOREM QUESTIONS.pdf"
+  },
+  {
+    "filename": "MSI WORK-ENERGY THEOREM MEMO.pdf",
+    "subject": "PHYSICAL SCIENCE",
+    "grade": "GRADE 12",
+    "fullPath": "PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/MSI WORK-ENERGY THEOREM MEMO.pdf",
+    "size": 3690.69,
+    "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FASSESSMENTS%2FMSI%20WORK-ENERGY%20THEOREM%20MEMO.pdf",
+    "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/MSI WORK-ENERGY THEOREM MEMO.pdf"
+  },
+  {
+    "filename": "Memo - Term 2 Test 1 - Work Energy and Power 2023.pdf",
+    "subject": "PHYSICAL SCIENCE",
+    "grade": "GRADE 12",
+    "fullPath": "PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/Memo - Term 2 Test 1 - Work Energy and Power 2023.pdf",
+    "size": 939.95,
+    "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FASSESSMENTS%2FMemo%20-%20Term%202%20Test%201%20-%20Work%20Energy%20and%20Power%202023.pdf",
+    "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/Memo - Term 2 Test 1 - Work Energy and Power 2023.pdf"
+  },
+  {
+    "filename": "Momentum.zip",
+    "subject": "PHYSICAL SCIENCE",
+    "grade": "GRADE 12",
+    "fullPath": "PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/Momentum.zip",
+    "size": 1677.87,
+    "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FASSESSMENTS%2FMomentum.zip",
+    "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/Momentum.zip"
+  },
+  {
+    "filename": "ORGANIC MOLECULES  TEST GRADE12.pdf",
+    "subject": "PHYSICAL SCIENCE",
+    "grade": "GRADE 12",
+    "fullPath": "PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/ORGANIC MOLECULES  TEST GRADE12.pdf",
+    "size": 210.91,
+    "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FASSESSMENTS%2FORGANIC%20MOLECULES%20%20TEST%20GRADE12.pdf",
+    "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/ORGANIC MOLECULES  TEST GRADE12.pdf"
+  },
+  {
+    "filename": "ORGANIC MOLECULES  TEST MEMORANDUM GRADE12.pdf",
+    "subject": "PHYSICAL SCIENCE",
+    "grade": "GRADE 12",
+    "fullPath": "PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/ORGANIC MOLECULES  TEST MEMORANDUM GRADE12.pdf",
+    "size": 492.77,
+    "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FASSESSMENTS%2FORGANIC%20MOLECULES%20%20TEST%20MEMORANDUM%20GRADE12.pdf",
+    "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/ORGANIC MOLECULES  TEST MEMORANDUM GRADE12.pdf"
+  },
+  {
+    "filename": "Organic Chemistry.zip",
+    "subject": "PHYSICAL SCIENCE",
+    "grade": "GRADE 12",
+    "fullPath": "PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/Organic Chemistry.zip",
+    "size": 1743.33,
+    "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FASSESSMENTS%2FOrganic%20Chemistry.zip",
+    "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/Organic Chemistry.zip"
+  },
+  {
+    "filename": "Projectile Motion.zip",
+    "subject": "PHYSICAL SCIENCE",
+    "grade": "GRADE 12",
+    "fullPath": "PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/Projectile Motion.zip",
+    "size": 2259.29,
+    "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FASSESSMENTS%2FProjectile%20Motion.zip",
+    "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/Projectile Motion.zip"
+  },
+  {
+    "filename": "Term 2 Test 1 - Work Energy and Power 2023.docx",
+    "subject": "PHYSICAL SCIENCE",
+    "grade": "GRADE 12",
+    "fullPath": "PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/Term 2 Test 1 - Work Energy and Power 2023.docx",
+    "size": 53.76,
+    "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FASSESSMENTS%2FTerm%202%20Test%201%20-%20Work%20Energy%20and%20Power%202023.docx",
+    "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/Term 2 Test 1 - Work Energy and Power 2023.docx"
+  },
+  {
+    "filename": "Term 2 Test 1 - Work Energy and Power 2023.pdf",
+    "subject": "PHYSICAL SCIENCE",
+    "grade": "GRADE 12",
+    "fullPath": "PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/Term 2 Test 1 - Work Energy and Power 2023.pdf",
+    "size": 640.58,
+    "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FASSESSMENTS%2FTerm%202%20Test%201%20-%20Work%20Energy%20and%20Power%202023.pdf",
+    "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/Term 2 Test 1 - Work Energy and Power 2023.pdf"
+  },
+  {
+    "filename": "Term 2 Test 2 - Work Energy and Power 2023.pdf",
+    "subject": "PHYSICAL SCIENCE",
+    "grade": "GRADE 12",
+    "fullPath": "PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/Term 2 Test 2 - Work Energy and Power 2023.pdf",
+    "size": 679.16,
+    "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FASSESSMENTS%2FTerm%202%20Test%202%20-%20Work%20Energy%20and%20Power%202023.pdf",
+    "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/Term 2 Test 2 - Work Energy and Power 2023.pdf"
+  },
+  {
+    "filename": "Topic Test 4  Work Energy and Power Version 2.pdf",
+    "subject": "PHYSICAL SCIENCE",
+    "grade": "GRADE 12",
+    "fullPath": "PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/Topic Test 4  Work Energy and Power Version 2.pdf",
+    "size": 991.03,
+    "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FASSESSMENTS%2FTopic%20Test%204%20%20Work%20Energy%20and%20Power%20Version%202.pdf",
+    "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/Topic Test 4  Work Energy and Power Version 2.pdf"
+  },
+  {
+    "filename": "Topic Test 5 Rates of Reaction.pdf",
+    "subject": "PHYSICAL SCIENCE",
+    "grade": "GRADE 12",
+    "fullPath": "PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/Topic Test 5 Rates of Reaction.pdf",
+    "size": 813.89,
+    "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FASSESSMENTS%2FTopic%20Test%205%20Rates%20of%20Reaction.pdf",
+    "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/Topic Test 5 Rates of Reaction.pdf"
+  },
+  {
+    "filename": "Topic Test 6  Doppler Effect.pdf",
+    "subject": "PHYSICAL SCIENCE",
+    "grade": "GRADE 12",
+    "fullPath": "PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/Topic Test 6  Doppler Effect.pdf",
+    "size": 650.21,
+    "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FASSESSMENTS%2FTopic%20Test%206%20%20Doppler%20Effect.pdf",
+    "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/Topic Test 6  Doppler Effect.pdf"
+  },
+  {
+    "filename": "Topic Test 7 Chemical Equilibrium.pdf",
+    "subject": "PHYSICAL SCIENCE",
+    "grade": "GRADE 12",
+    "fullPath": "PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/Topic Test 7 Chemical Equilibrium.pdf",
+    "size": 883.68,
+    "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FASSESSMENTS%2FTopic%20Test%207%20Chemical%20Equilibrium.pdf",
+    "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/Topic Test 7 Chemical Equilibrium.pdf"
+  },
+  {
+    "filename": "Topic Test 8 Acids and Bases.pdf",
+    "subject": "PHYSICAL SCIENCE",
+    "grade": "GRADE 12",
+    "fullPath": "PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/Topic Test 8 Acids and Bases.pdf",
+    "size": 837.89,
+    "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FASSESSMENTS%2FTopic%20Test%208%20Acids%20and%20Bases.pdf",
+    "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/Topic Test 8 Acids and Bases.pdf"
+  },
+  {
+    "filename": "VERTICAL PROJECTILE MOTION TEST 2.pdf",
+    "subject": "PHYSICAL SCIENCE",
+    "grade": "GRADE 12",
+    "fullPath": "PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/VERTICAL PROJECTILE MOTION TEST 2.pdf",
+    "size": 158.74,
+    "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FASSESSMENTS%2FVERTICAL%20PROJECTILE%20MOTION%20TEST%202.pdf",
+    "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/VERTICAL PROJECTILE MOTION TEST 2.pdf"
+  },
+  {
+    "filename": "VERTICAL PROJECTION  TEST 1 MEMO.pdf",
+    "subject": "PHYSICAL SCIENCE",
+    "grade": "GRADE 12",
+    "fullPath": "PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/VERTICAL PROJECTION  TEST 1 MEMO.pdf",
+    "size": 364.47,
+    "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FASSESSMENTS%2FVERTICAL%20PROJECTION%20%20TEST%201%20MEMO.pdf",
+    "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/VERTICAL PROJECTION  TEST 1 MEMO.pdf"
+  },
+  {
+    "filename": "VERTICAL PROJECTION  TEST 1.pdf",
+    "subject": "PHYSICAL SCIENCE",
+    "grade": "GRADE 12",
+    "fullPath": "PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/VERTICAL PROJECTION  TEST 1.pdf",
+    "size": 212.16,
+    "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FASSESSMENTS%2FVERTICAL%20PROJECTION%20%20TEST%201.pdf",
+    "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/VERTICAL PROJECTION  TEST 1.pdf"
+  },
+  {
+    "filename": "VERTICAL PROJECTION TEST 2 MEMO.pdf",
+    "subject": "PHYSICAL SCIENCE",
+    "grade": "GRADE 12",
+    "fullPath": "PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/VERTICAL PROJECTION TEST 2 MEMO.pdf",
+    "size": 126.39,
+    "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FASSESSMENTS%2FVERTICAL%20PROJECTION%20TEST%202%20MEMO.pdf",
+    "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/VERTICAL PROJECTION TEST 2 MEMO.pdf"
+  },
+  {
+    "filename": "last push paper 1 MEMO.docx.pdf",
+    "subject": "PHYSICAL SCIENCE",
+    "grade": "GRADE 12",
+    "fullPath": "PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/last push paper 1 MEMO.docx.pdf",
+    "size": 5325.5,
+    "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FASSESSMENTS%2Flast%20push%20paper%201%20MEMO.docx.pdf",
+    "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/last push paper 1 MEMO.docx.pdf"
+  },
+  {
+    "filename": "last push paper 1.docx.pdf",
+    "subject": "PHYSICAL SCIENCE",
+    "grade": "GRADE 12",
+    "fullPath": "PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/last push paper 1.docx.pdf",
+    "size": 8049.21,
+    "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FASSESSMENTS%2Flast%20push%20paper%201.docx.pdf",
+    "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/last push paper 1.docx.pdf"
+  },
+  {
+    "filename": "last push paper 2 memo.pdf",
+    "subject": "PHYSICAL SCIENCE",
+    "grade": "GRADE 12",
+    "fullPath": "PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/last push paper 2 memo.pdf",
+    "size": 6282.84,
+    "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FASSESSMENTS%2Flast%20push%20paper%202%20memo.pdf",
+    "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/last push paper 2 memo.pdf"
+  },
+  {
+    "filename": "last push paper 2.pdf",
+    "subject": "PHYSICAL SCIENCE",
+    "grade": "GRADE 12",
+    "fullPath": "PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/last push paper 2.pdf",
+    "size": 9240.73,
+    "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FASSESSMENTS%2Flast%20push%20paper%202.pdf",
+    "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/last push paper 2.pdf"
+  },
+  {
+    "filename": "PS Easy Marks Grade 12.pdf",
+    "subject": "PHYSICAL SCIENCE",
+    "grade": "GRADE 12",
+    "fullPath": "PHYSICAL SCIENCE/GRADE 12/STUDY GUIDES/PS Easy Marks Grade 12.pdf",
+    "size": 207.24,
+    "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FSTUDY%20GUIDES%2FPS%20Easy%20Marks%20Grade%2012.pdf",
+    "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/STUDY GUIDES/PS Easy Marks Grade 12.pdf"
+  },
+  {
+    "filename": "Acids and Bases.zip",
+    "subject": "PHYSICAL SCIENCE",
+    "grade": "GRADE 12",
+    "fullPath": "PHYSICAL SCIENCE/GRADE 12/TOPICS/Acids and Bases.zip",
+    "size": 3315.85,
+    "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FTOPICS%2FAcids%20and%20Bases.zip",
+    "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/TOPICS/Acids and Bases.zip"
+  },
+  {
+    "filename": "Chemical Equilibrium.zip",
+    "subject": "PHYSICAL SCIENCE",
+    "grade": "GRADE 12",
+    "fullPath": "PHYSICAL SCIENCE/GRADE 12/TOPICS/Chemical Equilibrium.zip",
+    "size": 4974.6,
+    "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FTOPICS%2FChemical%20Equilibrium.zip",
+    "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/TOPICS/Chemical Equilibrium.zip"
+  },
+  {
+    "filename": "Electrochemistry.zip",
+    "subject": "PHYSICAL SCIENCE",
+    "grade": "GRADE 12",
+    "fullPath": "PHYSICAL SCIENCE/GRADE 12/TOPICS/Electrochemistry.zip",
+    "size": 1816.39,
+    "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FTOPICS%2FElectrochemistry.zip",
+    "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/TOPICS/Electrochemistry.zip"
+  },
+  {
+    "filename": "Electrostatics.zip",
+    "subject": "PHYSICAL SCIENCE",
+    "grade": "GRADE 12",
+    "fullPath": "PHYSICAL SCIENCE/GRADE 12/TOPICS/Electrostatics.zip",
+    "size": 1406.63,
+    "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FTOPICS%2FElectrostatics.zip",
+    "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/TOPICS/Electrostatics.zip"
+  },
+  {
+    "filename": "Newtons Laws.zip",
+    "subject": "PHYSICAL SCIENCE",
+    "grade": "GRADE 12",
+    "fullPath": "PHYSICAL SCIENCE/GRADE 12/TOPICS/Newtons Laws.zip",
+    "size": 2049.85,
+    "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FTOPICS%2FNewtons%20Laws.zip",
+    "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/TOPICS/Newtons Laws.zip"
+  },
+  {
+    "filename": "Organic Molecules.zip",
+    "subject": "PHYSICAL SCIENCE",
+    "grade": "GRADE 12",
+    "fullPath": "PHYSICAL SCIENCE/GRADE 12/TOPICS/Organic Molecules.zip",
+    "size": 4615.87,
+    "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FTOPICS%2FOrganic%20Molecules.zip",
+    "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/TOPICS/Organic Molecules.zip"
+  },
+  {
+    "filename": "Rates of Reactions.zip",
+    "subject": "PHYSICAL SCIENCE",
+    "grade": "GRADE 12",
+    "fullPath": "PHYSICAL SCIENCE/GRADE 12/TOPICS/Rates of Reactions.zip",
+    "size": 4150.29,
+    "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FTOPICS%2FRates%20of%20Reactions.zip",
+    "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/TOPICS/Rates of Reactions.zip"
+  },
+  {
+    "filename": "Winterschool PDFs.zip",
+    "subject": "PHYSICAL SCIENCE",
+    "grade": "GRADE 12",
+    "fullPath": "PHYSICAL SCIENCE/GRADE 12/TOPICS/Winterschool PDFs.zip",
+    "size": 26997.07,
+    "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FTOPICS%2FWinterschool%20PDFs.zip",
+    "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/TOPICS/Winterschool PDFs.zip"
+  },
+  {
+    "filename": "Work Energy and Power.zip",
+    "subject": "PHYSICAL SCIENCE",
+    "grade": "GRADE 12",
+    "fullPath": "PHYSICAL SCIENCE/GRADE 12/TOPICS/Work Energy and Power.zip",
+    "size": 4680.63,
+    "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FTOPICS%2FWork%20Energy%20and%20Power.zip",
+    "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/TOPICS/Work Energy and Power.zip"
+  }
+];
+
+export const curriculumMaterialsBySubject = {
+  "MATHS": {
+    "GRADE 10": [
+      {
+        "filename": "2022 GR10 SUMMATIVE ASSESSMENT T2 MEMO.pdf",
+        "subject": "MATHS",
+        "grade": "GRADE 10",
+        "fullPath": "MATHS/GRADE 10/ASSESSMENTS/2022 GR10 SUMMATIVE ASSESSMENT T2 MEMO.pdf",
+        "size": 812.03,
+        "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FMATHS%2FGRADE%2010%2FASSESSMENTS%2F2022%20GR10%20SUMMATIVE%20ASSESSMENT%20T2%20MEMO.pdf",
+        "key": "MSI CURRICULUM MATERIAL/MATHS/GRADE 10/ASSESSMENTS/2022 GR10 SUMMATIVE ASSESSMENT T2 MEMO.pdf"
+      },
+      {
+        "filename": "2022 GR10 SUMMATIVE ASSESSMENT T2.pdf",
+        "subject": "MATHS",
+        "grade": "GRADE 10",
+        "fullPath": "MATHS/GRADE 10/ASSESSMENTS/2022 GR10 SUMMATIVE ASSESSMENT T2.pdf",
+        "size": 770.86,
+        "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FMATHS%2FGRADE%2010%2FASSESSMENTS%2F2022%20GR10%20SUMMATIVE%20ASSESSMENT%20T2.pdf",
+        "key": "MSI CURRICULUM MATERIAL/MATHS/GRADE 10/ASSESSMENTS/2022 GR10 SUMMATIVE ASSESSMENT T2.pdf"
+      },
+      {
+        "filename": "GRADE 10 TEST ANALYTICAL GEOMETRY.docx",
+        "subject": "MATHS",
+        "grade": "GRADE 10",
+        "fullPath": "MATHS/GRADE 10/ASSESSMENTS/GRADE 10 TEST ANALYTICAL GEOMETRY.docx",
+        "size": 232.69,
+        "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FMATHS%2FGRADE%2010%2FASSESSMENTS%2FGRADE%2010%20TEST%20ANALYTICAL%20GEOMETRY.docx",
+        "key": "MSI CURRICULUM MATERIAL/MATHS/GRADE 10/ASSESSMENTS/GRADE 10 TEST ANALYTICAL GEOMETRY.docx"
+      },
+      {
+        "filename": "GRADE 10 TEST FUNCTIONS.docx",
+        "subject": "MATHS",
+        "grade": "GRADE 10",
+        "fullPath": "MATHS/GRADE 10/ASSESSMENTS/GRADE 10 TEST FUNCTIONS.docx",
+        "size": 248.25,
+        "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FMATHS%2FGRADE%2010%2FASSESSMENTS%2FGRADE%2010%20TEST%20FUNCTIONS.docx",
+        "key": "MSI CURRICULUM MATERIAL/MATHS/GRADE 10/ASSESSMENTS/GRADE 10 TEST FUNCTIONS.docx"
+      },
+      {
+        "filename": "GRADE 10 TEST NUMBER PATTERNS.docx",
+        "subject": "MATHS",
+        "grade": "GRADE 10",
+        "fullPath": "MATHS/GRADE 10/ASSESSMENTS/GRADE 10 TEST NUMBER PATTERNS.docx",
+        "size": 261.11,
+        "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FMATHS%2FGRADE%2010%2FASSESSMENTS%2FGRADE%2010%20TEST%20NUMBER%20PATTERNS.docx",
+        "key": "MSI CURRICULUM MATERIAL/MATHS/GRADE 10/ASSESSMENTS/GRADE 10 TEST NUMBER PATTERNS.docx"
+      }
+    ]
+  },
+  "PHYSICAL SCIENCE": {
+    "GRADE 10": [
+      {
+        "filename": "2022 Grdae 10 Summative Assessment Term 1.pdf",
+        "subject": "PHYSICAL SCIENCE",
+        "grade": "GRADE 10",
+        "fullPath": "PHYSICAL SCIENCE/GRADE 10/ASSESSMENTS/2022 Grdae 10 Summative Assessment Term 1.pdf",
+        "size": 884.26,
+        "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2010%2FASSESSMENTS%2F2022%20Grdae%2010%20Summative%20Assessment%20Term%201.pdf",
+        "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 10/ASSESSMENTS/2022 Grdae 10 Summative Assessment Term 1.pdf"
+      },
+      {
+        "filename": "Memo Grade 10 Summative Assessment Term 3.pdf",
+        "subject": "PHYSICAL SCIENCE",
+        "grade": "GRADE 10",
+        "fullPath": "PHYSICAL SCIENCE/GRADE 10/ASSESSMENTS/Memo Grade 10 Summative Assessment Term 3.pdf",
+        "size": 802.26,
+        "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2010%2FASSESSMENTS%2FMemo%20Grade%2010%20Summative%20Assessment%20Term%203.pdf",
+        "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 10/ASSESSMENTS/Memo Grade 10 Summative Assessment Term 3.pdf"
+      },
+      {
+        "filename": "Electricity and Magnetism  - Grade 10 Term 1 Topic Test.pdf",
+        "subject": "PHYSICAL SCIENCE",
+        "grade": "GRADE 10",
+        "fullPath": "PHYSICAL SCIENCE/GRADE 10/TOPICS/Electricity and Magnetism  - Grade 10 Term 1 Topic Test.pdf",
+        "size": 697.18,
+        "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2010%2FTOPICS%2FElectricity%20and%20Magnetism%20%20-%20Grade%2010%20Term%201%20Topic%20Test.pdf",
+        "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 10/TOPICS/Electricity and Magnetism  - Grade 10 Term 1 Topic Test.pdf"
+      },
+      {
+        "filename": "Waves Sound and Light  - Grade 10 Term 1 Topic Test.pdf",
+        "subject": "PHYSICAL SCIENCE",
+        "grade": "GRADE 10",
+        "fullPath": "PHYSICAL SCIENCE/GRADE 10/TOPICS/Waves Sound and Light  - Grade 10 Term 1 Topic Test.pdf",
+        "size": 621.01,
+        "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2010%2FTOPICS%2FWaves%20Sound%20and%20Light%20%20-%20Grade%2010%20Term%201%20Topic%20Test.pdf",
+        "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 10/TOPICS/Waves Sound and Light  - Grade 10 Term 1 Topic Test.pdf"
+      }
+    ],
+    "GRADE 11": [
+      {
+        "filename": "NEWTONS LAWS TEST 1 GRADE 11.pdf",
+        "subject": "PHYSICAL SCIENCE",
+        "grade": "GRADE 11",
+        "fullPath": "PHYSICAL SCIENCE/GRADE 11/ASSESSMENTS/NEWTONS LAWS TEST 1 GRADE 11.pdf",
+        "size": 247.98,
+        "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2011%2FASSESSMENTS%2FNEWTONS%20LAWS%20TEST%201%20GRADE%2011.pdf",
+        "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 11/ASSESSMENTS/NEWTONS LAWS TEST 1 GRADE 11.pdf"
+      },
+      {
+        "filename": "NEWTONS LAWS TEST 2 GRADE 11.pdf",
+        "subject": "PHYSICAL SCIENCE",
+        "grade": "GRADE 11",
+        "fullPath": "PHYSICAL SCIENCE/GRADE 11/ASSESSMENTS/NEWTONS LAWS TEST 2 GRADE 11.pdf",
+        "size": 249.06,
+        "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2011%2FASSESSMENTS%2FNEWTONS%20LAWS%20TEST%202%20GRADE%2011.pdf",
+        "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 11/ASSESSMENTS/NEWTONS LAWS TEST 2 GRADE 11.pdf"
+      },
+      {
+        "filename": "NEWTONS LAWS TEST 3 GRADE 11.pdf",
+        "subject": "PHYSICAL SCIENCE",
+        "grade": "GRADE 11",
+        "fullPath": "PHYSICAL SCIENCE/GRADE 11/ASSESSMENTS/NEWTONS LAWS TEST 3 GRADE 11.pdf",
+        "size": 239.66,
+        "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2011%2FASSESSMENTS%2FNEWTONS%20LAWS%20TEST%203%20GRADE%2011.pdf",
+        "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 11/ASSESSMENTS/NEWTONS LAWS TEST 3 GRADE 11.pdf"
+      },
+      {
+        "filename": "Topic Test 1 - Vectors in 2D - Grade 11 - Term 1.pdf",
+        "subject": "PHYSICAL SCIENCE",
+        "grade": "GRADE 11",
+        "fullPath": "PHYSICAL SCIENCE/GRADE 11/ASSESSMENTS/Topic Test 1 - Vectors in 2D - Grade 11 - Term 1.pdf",
+        "size": 732.93,
+        "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2011%2FASSESSMENTS%2FTopic%20Test%201%20-%20Vectors%20in%202D%20-%20Grade%2011%20-%20Term%201.pdf",
+        "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 11/ASSESSMENTS/Topic Test 1 - Vectors in 2D - Grade 11 - Term 1.pdf"
+      },
+      {
+        "filename": "Topic Test 2 - Newtons Laws of Mootion - Grade 11 - Term 1 (Final Version).pdf",
+        "subject": "PHYSICAL SCIENCE",
+        "grade": "GRADE 11",
+        "fullPath": "PHYSICAL SCIENCE/GRADE 11/ASSESSMENTS/Topic Test 2 - Newtons Laws of Mootion - Grade 11 - Term 1 (Final Version).pdf",
+        "size": 663.09,
+        "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2011%2FASSESSMENTS%2FTopic%20Test%202%20-%20Newtons%20Laws%20of%20Mootion%20-%20Grade%2011%20-%20Term%201%20(Final%20Version).pdf",
+        "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 11/ASSESSMENTS/Topic Test 2 - Newtons Laws of Mootion - Grade 11 - Term 1 (Final Version).pdf"
+      },
+      {
+        "filename": "Topic Test 2 - Newtons Laws of Mootion - Grade 11 - Term 1.pdf",
+        "subject": "PHYSICAL SCIENCE",
+        "grade": "GRADE 11",
+        "fullPath": "PHYSICAL SCIENCE/GRADE 11/ASSESSMENTS/Topic Test 2 - Newtons Laws of Mootion - Grade 11 - Term 1.pdf",
+        "size": 649.15,
+        "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2011%2FASSESSMENTS%2FTopic%20Test%202%20-%20Newtons%20Laws%20of%20Mootion%20-%20Grade%2011%20-%20Term%201.pdf",
+        "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 11/ASSESSMENTS/Topic Test 2 - Newtons Laws of Mootion - Grade 11 - Term 1.pdf"
+      }
+    ],
+    "GRADE 12": [
+      {
+        "filename": "Grade 12 Term 1 Test 1 - Vertical Projectile Motion.pdf",
+        "subject": "PHYSICAL SCIENCE",
+        "grade": "GRADE 12",
+        "fullPath": "PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/Grade 12 Term 1 Test 1 - Vertical Projectile Motion.pdf",
+        "size": 711.64,
+        "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FASSESSMENTS%2FGrade%2012%20Term%201%20Test%201%20-%20Vertical%20Projectile%20Motion.pdf",
+        "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/Grade 12 Term 1 Test 1 - Vertical Projectile Motion.pdf"
+      },
+      {
+        "filename": "MOMENTUM ^0 IMPULSE TEST 12 MEMO.pdf",
+        "subject": "PHYSICAL SCIENCE",
+        "grade": "GRADE 12",
+        "fullPath": "PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/MOMENTUM ^0 IMPULSE TEST 12 MEMO.pdf",
+        "size": 185.19,
+        "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FASSESSMENTS%2FMOMENTUM%20%5E0%20IMPULSE%20TEST%2012%20MEMO.pdf",
+        "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/MOMENTUM ^0 IMPULSE TEST 12 MEMO.pdf"
+      },
+      {
+        "filename": "MOMENTUM ^0 IMPUSLE TEST 12.pdf",
+        "subject": "PHYSICAL SCIENCE",
+        "grade": "GRADE 12",
+        "fullPath": "PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/MOMENTUM ^0 IMPUSLE TEST 12.pdf",
+        "size": 193.7,
+        "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FASSESSMENTS%2FMOMENTUM%20%5E0%20IMPUSLE%20TEST%2012.pdf",
+        "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/MOMENTUM ^0 IMPUSLE TEST 12.pdf"
+      },
+      {
+        "filename": "MSI ACIDS & BASES QUESTIONS.pdf",
+        "subject": "PHYSICAL SCIENCE",
+        "grade": "GRADE 12",
+        "fullPath": "PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/MSI ACIDS & BASES QUESTIONS.pdf",
+        "size": 1557.13,
+        "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FASSESSMENTS%2FMSI%20ACIDS%20%26%20BASES%20QUESTIONS.pdf",
+        "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/MSI ACIDS & BASES QUESTIONS.pdf"
+      },
+      {
+        "filename": "MSI DOPPLER EFFECT MEMO.pdf",
+        "subject": "PHYSICAL SCIENCE",
+        "grade": "GRADE 12",
+        "fullPath": "PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/MSI DOPPLER EFFECT MEMO.pdf",
+        "size": 1519.92,
+        "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FASSESSMENTS%2FMSI%20DOPPLER%20EFFECT%20MEMO.pdf",
+        "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/MSI DOPPLER EFFECT MEMO.pdf"
+      },
+      {
+        "filename": "MSI DOPPLER EFFECT QUESTIONS.pdf",
+        "subject": "PHYSICAL SCIENCE",
+        "grade": "GRADE 12",
+        "fullPath": "PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/MSI DOPPLER EFFECT QUESTIONS.pdf",
+        "size": 1729.08,
+        "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FASSESSMENTS%2FMSI%20DOPPLER%20EFFECT%20QUESTIONS.pdf",
+        "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/MSI DOPPLER EFFECT QUESTIONS.pdf"
+      },
+      {
+        "filename": "MSI ELECTRIC CIRCUITS MEMO.pdf",
+        "subject": "PHYSICAL SCIENCE",
+        "grade": "GRADE 12",
+        "fullPath": "PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/MSI ELECTRIC CIRCUITS MEMO.pdf",
+        "size": 2027,
+        "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FASSESSMENTS%2FMSI%20ELECTRIC%20CIRCUITS%20MEMO.pdf",
+        "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/MSI ELECTRIC CIRCUITS MEMO.pdf"
+      },
+      {
+        "filename": "MSI ELECTRIC CIRCUITS QUESTIONS.pdf",
+        "subject": "PHYSICAL SCIENCE",
+        "grade": "GRADE 12",
+        "fullPath": "PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/MSI ELECTRIC CIRCUITS QUESTIONS.pdf",
+        "size": 2261.7,
+        "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FASSESSMENTS%2FMSI%20ELECTRIC%20CIRCUITS%20QUESTIONS.pdf",
+        "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/MSI ELECTRIC CIRCUITS QUESTIONS.pdf"
+      },
+      {
+        "filename": "MSI ELECTROCHEMICAL CELLS MEMO.pdf",
+        "subject": "PHYSICAL SCIENCE",
+        "grade": "GRADE 12",
+        "fullPath": "PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/MSI ELECTROCHEMICAL CELLS MEMO.pdf",
+        "size": 2197.98,
+        "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FASSESSMENTS%2FMSI%20ELECTROCHEMICAL%20CELLS%20MEMO.pdf",
+        "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/MSI ELECTROCHEMICAL CELLS MEMO.pdf"
+      },
+      {
+        "filename": "MSI ELECTROCHEMICAL CELLS QUESTIONS.pdf",
+        "subject": "PHYSICAL SCIENCE",
+        "grade": "GRADE 12",
+        "fullPath": "PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/MSI ELECTROCHEMICAL CELLS QUESTIONS.pdf",
+        "size": 4635.32,
+        "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FASSESSMENTS%2FMSI%20ELECTROCHEMICAL%20CELLS%20QUESTIONS.pdf",
+        "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/MSI ELECTROCHEMICAL CELLS QUESTIONS.pdf"
+      },
+      {
+        "filename": "MSI ELECTRODYNAMICS MEMO.pdf",
+        "subject": "PHYSICAL SCIENCE",
+        "grade": "GRADE 12",
+        "fullPath": "PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/MSI ELECTRODYNAMICS MEMO.pdf",
+        "size": 1679.71,
+        "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FASSESSMENTS%2FMSI%20ELECTRODYNAMICS%20MEMO.pdf",
+        "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/MSI ELECTRODYNAMICS MEMO.pdf"
+      },
+      {
+        "filename": "MSI ELECTRODYNAMICS QUESTIONS.pdf",
+        "subject": "PHYSICAL SCIENCE",
+        "grade": "GRADE 12",
+        "fullPath": "PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/MSI ELECTRODYNAMICS QUESTIONS.pdf",
+        "size": 2614.31,
+        "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FASSESSMENTS%2FMSI%20ELECTRODYNAMICS%20QUESTIONS.pdf",
+        "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/MSI ELECTRODYNAMICS QUESTIONS.pdf"
+      },
+      {
+        "filename": "MSI ELECTROSTATICS MEMO.pdf",
+        "subject": "PHYSICAL SCIENCE",
+        "grade": "GRADE 12",
+        "fullPath": "PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/MSI ELECTROSTATICS MEMO.pdf",
+        "size": 2301.56,
+        "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FASSESSMENTS%2FMSI%20ELECTROSTATICS%20MEMO.pdf",
+        "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/MSI ELECTROSTATICS MEMO.pdf"
+      },
+      {
+        "filename": "MSI ELECTROSTATICS QUESTIONS.pdf",
+        "subject": "PHYSICAL SCIENCE",
+        "grade": "GRADE 12",
+        "fullPath": "PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/MSI ELECTROSTATICS QUESTIONS.pdf",
+        "size": 1541.11,
+        "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FASSESSMENTS%2FMSI%20ELECTROSTATICS%20QUESTIONS.pdf",
+        "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/MSI ELECTROSTATICS QUESTIONS.pdf"
+      },
+      {
+        "filename": "MSI FERTILIZERS MEMO.pdf",
+        "subject": "PHYSICAL SCIENCE",
+        "grade": "GRADE 12",
+        "fullPath": "PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/MSI FERTILIZERS MEMO.pdf",
+        "size": 2171.59,
+        "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FASSESSMENTS%2FMSI%20FERTILIZERS%20MEMO.pdf",
+        "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/MSI FERTILIZERS MEMO.pdf"
+      },
+      {
+        "filename": "MSI FERTILIZERS QUESTIONS.pdf",
+        "subject": "PHYSICAL SCIENCE",
+        "grade": "GRADE 12",
+        "fullPath": "PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/MSI FERTILIZERS QUESTIONS.pdf",
+        "size": 2738.56,
+        "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FASSESSMENTS%2FMSI%20FERTILIZERS%20QUESTIONS.pdf",
+        "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/MSI FERTILIZERS QUESTIONS.pdf"
+      },
+      {
+        "filename": "MSI GR12 FIRST TERM PHYSICS MEMO.pdf",
+        "subject": "PHYSICAL SCIENCE",
+        "grade": "GRADE 12",
+        "fullPath": "PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/MSI GR12 FIRST TERM PHYSICS MEMO.pdf",
+        "size": 8657.75,
+        "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FASSESSMENTS%2FMSI%20GR12%20FIRST%20TERM%20PHYSICS%20MEMO.pdf",
+        "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/MSI GR12 FIRST TERM PHYSICS MEMO.pdf"
+      },
+      {
+        "filename": "MSI GR12 FIRST TERM PHYSICS QUESTIONS.pdf",
+        "subject": "PHYSICAL SCIENCE",
+        "grade": "GRADE 12",
+        "fullPath": "PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/MSI GR12 FIRST TERM PHYSICS QUESTIONS.pdf",
+        "size": 6476.79,
+        "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FASSESSMENTS%2FMSI%20GR12%20FIRST%20TERM%20PHYSICS%20QUESTIONS.pdf",
+        "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/MSI GR12 FIRST TERM PHYSICS QUESTIONS.pdf"
+      },
+      {
+        "filename": "MSI NETOWN_S LAWS OF MOTION QUESTIONS.pdf",
+        "subject": "PHYSICAL SCIENCE",
+        "grade": "GRADE 12",
+        "fullPath": "PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/MSI NETOWN_S LAWS OF MOTION QUESTIONS.pdf",
+        "size": 580.27,
+        "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FASSESSMENTS%2FMSI%20NETOWN_S%20LAWS%20OF%20MOTION%20QUESTIONS.pdf",
+        "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/MSI NETOWN_S LAWS OF MOTION QUESTIONS.pdf"
+      },
+      {
+        "filename": "MSI NEWTON_S LAWS MEMO.pdf",
+        "subject": "PHYSICAL SCIENCE",
+        "grade": "GRADE 12",
+        "fullPath": "PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/MSI NEWTON_S LAWS MEMO.pdf",
+        "size": 3594.38,
+        "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FASSESSMENTS%2FMSI%20NEWTON_S%20LAWS%20MEMO.pdf",
+        "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/MSI NEWTON_S LAWS MEMO.pdf"
+      },
+      {
+        "filename": "MSI NEWTON_S LAWS QUESTIONS.pdf",
+        "subject": "PHYSICAL SCIENCE",
+        "grade": "GRADE 12",
+        "fullPath": "PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/MSI NEWTON_S LAWS QUESTIONS.pdf",
+        "size": 3421.92,
+        "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FASSESSMENTS%2FMSI%20NEWTON_S%20LAWS%20QUESTIONS.pdf",
+        "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/MSI NEWTON_S LAWS QUESTIONS.pdf"
+      },
+      {
+        "filename": "MSI ORGANIC CHEM MEMO.pdf",
+        "subject": "PHYSICAL SCIENCE",
+        "grade": "GRADE 12",
+        "fullPath": "PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/MSI ORGANIC CHEM MEMO.pdf",
+        "size": 3000.7,
+        "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FASSESSMENTS%2FMSI%20ORGANIC%20CHEM%20MEMO.pdf",
+        "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/MSI ORGANIC CHEM MEMO.pdf"
+      },
+      {
+        "filename": "MSI ORGANIC CHEM QUESTIONS.pdf",
+        "subject": "PHYSICAL SCIENCE",
+        "grade": "GRADE 12",
+        "fullPath": "PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/MSI ORGANIC CHEM QUESTIONS.pdf",
+        "size": 4149.83,
+        "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FASSESSMENTS%2FMSI%20ORGANIC%20CHEM%20QUESTIONS.pdf",
+        "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/MSI ORGANIC CHEM QUESTIONS.pdf"
+      },
+      {
+        "filename": "MSI VERTICAL PROJECTILE MOTION MEMO.pdf",
+        "subject": "PHYSICAL SCIENCE",
+        "grade": "GRADE 12",
+        "fullPath": "PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/MSI VERTICAL PROJECTILE MOTION MEMO.pdf",
+        "size": 3584.38,
+        "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FASSESSMENTS%2FMSI%20VERTICAL%20PROJECTILE%20MOTION%20MEMO.pdf",
+        "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/MSI VERTICAL PROJECTILE MOTION MEMO.pdf"
+      },
+      {
+        "filename": "MSI VERTICAL PROJECTILE MOTION QUESTIONS.pdf",
+        "subject": "PHYSICAL SCIENCE",
+        "grade": "GRADE 12",
+        "fullPath": "PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/MSI VERTICAL PROJECTILE MOTION QUESTIONS.pdf",
+        "size": 1645.91,
+        "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FASSESSMENTS%2FMSI%20VERTICAL%20PROJECTILE%20MOTION%20QUESTIONS.pdf",
+        "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/MSI VERTICAL PROJECTILE MOTION QUESTIONS.pdf"
+      },
+      {
+        "filename": "MSI WORK- ENRGY THEOREM QUESTIONS.pdf",
+        "subject": "PHYSICAL SCIENCE",
+        "grade": "GRADE 12",
+        "fullPath": "PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/MSI WORK- ENRGY THEOREM QUESTIONS.pdf",
+        "size": 2916.99,
+        "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FASSESSMENTS%2FMSI%20WORK-%20ENRGY%20THEOREM%20QUESTIONS.pdf",
+        "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/MSI WORK- ENRGY THEOREM QUESTIONS.pdf"
+      },
+      {
+        "filename": "MSI WORK-ENERGY THEOREM MEMO.pdf",
+        "subject": "PHYSICAL SCIENCE",
+        "grade": "GRADE 12",
+        "fullPath": "PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/MSI WORK-ENERGY THEOREM MEMO.pdf",
+        "size": 3690.69,
+        "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FASSESSMENTS%2FMSI%20WORK-ENERGY%20THEOREM%20MEMO.pdf",
+        "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/MSI WORK-ENERGY THEOREM MEMO.pdf"
+      },
+      {
+        "filename": "Memo - Term 2 Test 1 - Work Energy and Power 2023.pdf",
+        "subject": "PHYSICAL SCIENCE",
+        "grade": "GRADE 12",
+        "fullPath": "PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/Memo - Term 2 Test 1 - Work Energy and Power 2023.pdf",
+        "size": 939.95,
+        "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FASSESSMENTS%2FMemo%20-%20Term%202%20Test%201%20-%20Work%20Energy%20and%20Power%202023.pdf",
+        "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/Memo - Term 2 Test 1 - Work Energy and Power 2023.pdf"
+      },
+      {
+        "filename": "Momentum.zip",
+        "subject": "PHYSICAL SCIENCE",
+        "grade": "GRADE 12",
+        "fullPath": "PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/Momentum.zip",
+        "size": 1677.87,
+        "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FASSESSMENTS%2FMomentum.zip",
+        "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/Momentum.zip"
+      },
+      {
+        "filename": "ORGANIC MOLECULES  TEST GRADE12.pdf",
+        "subject": "PHYSICAL SCIENCE",
+        "grade": "GRADE 12",
+        "fullPath": "PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/ORGANIC MOLECULES  TEST GRADE12.pdf",
+        "size": 210.91,
+        "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FASSESSMENTS%2FORGANIC%20MOLECULES%20%20TEST%20GRADE12.pdf",
+        "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/ORGANIC MOLECULES  TEST GRADE12.pdf"
+      },
+      {
+        "filename": "ORGANIC MOLECULES  TEST MEMORANDUM GRADE12.pdf",
+        "subject": "PHYSICAL SCIENCE",
+        "grade": "GRADE 12",
+        "fullPath": "PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/ORGANIC MOLECULES  TEST MEMORANDUM GRADE12.pdf",
+        "size": 492.77,
+        "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FASSESSMENTS%2FORGANIC%20MOLECULES%20%20TEST%20MEMORANDUM%20GRADE12.pdf",
+        "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/ORGANIC MOLECULES  TEST MEMORANDUM GRADE12.pdf"
+      },
+      {
+        "filename": "Organic Chemistry.zip",
+        "subject": "PHYSICAL SCIENCE",
+        "grade": "GRADE 12",
+        "fullPath": "PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/Organic Chemistry.zip",
+        "size": 1743.33,
+        "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FASSESSMENTS%2FOrganic%20Chemistry.zip",
+        "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/Organic Chemistry.zip"
+      },
+      {
+        "filename": "Projectile Motion.zip",
+        "subject": "PHYSICAL SCIENCE",
+        "grade": "GRADE 12",
+        "fullPath": "PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/Projectile Motion.zip",
+        "size": 2259.29,
+        "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FASSESSMENTS%2FProjectile%20Motion.zip",
+        "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/Projectile Motion.zip"
+      },
+      {
+        "filename": "Term 2 Test 1 - Work Energy and Power 2023.docx",
+        "subject": "PHYSICAL SCIENCE",
+        "grade": "GRADE 12",
+        "fullPath": "PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/Term 2 Test 1 - Work Energy and Power 2023.docx",
+        "size": 53.76,
+        "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FASSESSMENTS%2FTerm%202%20Test%201%20-%20Work%20Energy%20and%20Power%202023.docx",
+        "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/Term 2 Test 1 - Work Energy and Power 2023.docx"
+      },
+      {
+        "filename": "Term 2 Test 1 - Work Energy and Power 2023.pdf",
+        "subject": "PHYSICAL SCIENCE",
+        "grade": "GRADE 12",
+        "fullPath": "PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/Term 2 Test 1 - Work Energy and Power 2023.pdf",
+        "size": 640.58,
+        "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FASSESSMENTS%2FTerm%202%20Test%201%20-%20Work%20Energy%20and%20Power%202023.pdf",
+        "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/Term 2 Test 1 - Work Energy and Power 2023.pdf"
+      },
+      {
+        "filename": "Term 2 Test 2 - Work Energy and Power 2023.pdf",
+        "subject": "PHYSICAL SCIENCE",
+        "grade": "GRADE 12",
+        "fullPath": "PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/Term 2 Test 2 - Work Energy and Power 2023.pdf",
+        "size": 679.16,
+        "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FASSESSMENTS%2FTerm%202%20Test%202%20-%20Work%20Energy%20and%20Power%202023.pdf",
+        "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/Term 2 Test 2 - Work Energy and Power 2023.pdf"
+      },
+      {
+        "filename": "Topic Test 4  Work Energy and Power Version 2.pdf",
+        "subject": "PHYSICAL SCIENCE",
+        "grade": "GRADE 12",
+        "fullPath": "PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/Topic Test 4  Work Energy and Power Version 2.pdf",
+        "size": 991.03,
+        "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FASSESSMENTS%2FTopic%20Test%204%20%20Work%20Energy%20and%20Power%20Version%202.pdf",
+        "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/Topic Test 4  Work Energy and Power Version 2.pdf"
+      },
+      {
+        "filename": "Topic Test 5 Rates of Reaction.pdf",
+        "subject": "PHYSICAL SCIENCE",
+        "grade": "GRADE 12",
+        "fullPath": "PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/Topic Test 5 Rates of Reaction.pdf",
+        "size": 813.89,
+        "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FASSESSMENTS%2FTopic%20Test%205%20Rates%20of%20Reaction.pdf",
+        "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/Topic Test 5 Rates of Reaction.pdf"
+      },
+      {
+        "filename": "Topic Test 6  Doppler Effect.pdf",
+        "subject": "PHYSICAL SCIENCE",
+        "grade": "GRADE 12",
+        "fullPath": "PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/Topic Test 6  Doppler Effect.pdf",
+        "size": 650.21,
+        "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FASSESSMENTS%2FTopic%20Test%206%20%20Doppler%20Effect.pdf",
+        "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/Topic Test 6  Doppler Effect.pdf"
+      },
+      {
+        "filename": "Topic Test 7 Chemical Equilibrium.pdf",
+        "subject": "PHYSICAL SCIENCE",
+        "grade": "GRADE 12",
+        "fullPath": "PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/Topic Test 7 Chemical Equilibrium.pdf",
+        "size": 883.68,
+        "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FASSESSMENTS%2FTopic%20Test%207%20Chemical%20Equilibrium.pdf",
+        "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/Topic Test 7 Chemical Equilibrium.pdf"
+      },
+      {
+        "filename": "Topic Test 8 Acids and Bases.pdf",
+        "subject": "PHYSICAL SCIENCE",
+        "grade": "GRADE 12",
+        "fullPath": "PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/Topic Test 8 Acids and Bases.pdf",
+        "size": 837.89,
+        "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FASSESSMENTS%2FTopic%20Test%208%20Acids%20and%20Bases.pdf",
+        "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/Topic Test 8 Acids and Bases.pdf"
+      },
+      {
+        "filename": "VERTICAL PROJECTILE MOTION TEST 2.pdf",
+        "subject": "PHYSICAL SCIENCE",
+        "grade": "GRADE 12",
+        "fullPath": "PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/VERTICAL PROJECTILE MOTION TEST 2.pdf",
+        "size": 158.74,
+        "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FASSESSMENTS%2FVERTICAL%20PROJECTILE%20MOTION%20TEST%202.pdf",
+        "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/VERTICAL PROJECTILE MOTION TEST 2.pdf"
+      },
+      {
+        "filename": "VERTICAL PROJECTION  TEST 1 MEMO.pdf",
+        "subject": "PHYSICAL SCIENCE",
+        "grade": "GRADE 12",
+        "fullPath": "PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/VERTICAL PROJECTION  TEST 1 MEMO.pdf",
+        "size": 364.47,
+        "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FASSESSMENTS%2FVERTICAL%20PROJECTION%20%20TEST%201%20MEMO.pdf",
+        "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/VERTICAL PROJECTION  TEST 1 MEMO.pdf"
+      },
+      {
+        "filename": "VERTICAL PROJECTION  TEST 1.pdf",
+        "subject": "PHYSICAL SCIENCE",
+        "grade": "GRADE 12",
+        "fullPath": "PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/VERTICAL PROJECTION  TEST 1.pdf",
+        "size": 212.16,
+        "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FASSESSMENTS%2FVERTICAL%20PROJECTION%20%20TEST%201.pdf",
+        "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/VERTICAL PROJECTION  TEST 1.pdf"
+      },
+      {
+        "filename": "VERTICAL PROJECTION TEST 2 MEMO.pdf",
+        "subject": "PHYSICAL SCIENCE",
+        "grade": "GRADE 12",
+        "fullPath": "PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/VERTICAL PROJECTION TEST 2 MEMO.pdf",
+        "size": 126.39,
+        "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FASSESSMENTS%2FVERTICAL%20PROJECTION%20TEST%202%20MEMO.pdf",
+        "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/VERTICAL PROJECTION TEST 2 MEMO.pdf"
+      },
+      {
+        "filename": "last push paper 1 MEMO.docx.pdf",
+        "subject": "PHYSICAL SCIENCE",
+        "grade": "GRADE 12",
+        "fullPath": "PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/last push paper 1 MEMO.docx.pdf",
+        "size": 5325.5,
+        "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FASSESSMENTS%2Flast%20push%20paper%201%20MEMO.docx.pdf",
+        "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/last push paper 1 MEMO.docx.pdf"
+      },
+      {
+        "filename": "last push paper 1.docx.pdf",
+        "subject": "PHYSICAL SCIENCE",
+        "grade": "GRADE 12",
+        "fullPath": "PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/last push paper 1.docx.pdf",
+        "size": 8049.21,
+        "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FASSESSMENTS%2Flast%20push%20paper%201.docx.pdf",
+        "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/last push paper 1.docx.pdf"
+      },
+      {
+        "filename": "last push paper 2 memo.pdf",
+        "subject": "PHYSICAL SCIENCE",
+        "grade": "GRADE 12",
+        "fullPath": "PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/last push paper 2 memo.pdf",
+        "size": 6282.84,
+        "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FASSESSMENTS%2Flast%20push%20paper%202%20memo.pdf",
+        "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/last push paper 2 memo.pdf"
+      },
+      {
+        "filename": "last push paper 2.pdf",
+        "subject": "PHYSICAL SCIENCE",
+        "grade": "GRADE 12",
+        "fullPath": "PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/last push paper 2.pdf",
+        "size": 9240.73,
+        "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FASSESSMENTS%2Flast%20push%20paper%202.pdf",
+        "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/ASSESSMENTS/last push paper 2.pdf"
+      },
+      {
+        "filename": "PS Easy Marks Grade 12.pdf",
+        "subject": "PHYSICAL SCIENCE",
+        "grade": "GRADE 12",
+        "fullPath": "PHYSICAL SCIENCE/GRADE 12/STUDY GUIDES/PS Easy Marks Grade 12.pdf",
+        "size": 207.24,
+        "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FSTUDY%20GUIDES%2FPS%20Easy%20Marks%20Grade%2012.pdf",
+        "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/STUDY GUIDES/PS Easy Marks Grade 12.pdf"
+      },
+      {
+        "filename": "Acids and Bases.zip",
+        "subject": "PHYSICAL SCIENCE",
+        "grade": "GRADE 12",
+        "fullPath": "PHYSICAL SCIENCE/GRADE 12/TOPICS/Acids and Bases.zip",
+        "size": 3315.85,
+        "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FTOPICS%2FAcids%20and%20Bases.zip",
+        "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/TOPICS/Acids and Bases.zip"
+      },
+      {
+        "filename": "Chemical Equilibrium.zip",
+        "subject": "PHYSICAL SCIENCE",
+        "grade": "GRADE 12",
+        "fullPath": "PHYSICAL SCIENCE/GRADE 12/TOPICS/Chemical Equilibrium.zip",
+        "size": 4974.6,
+        "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FTOPICS%2FChemical%20Equilibrium.zip",
+        "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/TOPICS/Chemical Equilibrium.zip"
+      },
+      {
+        "filename": "Electrochemistry.zip",
+        "subject": "PHYSICAL SCIENCE",
+        "grade": "GRADE 12",
+        "fullPath": "PHYSICAL SCIENCE/GRADE 12/TOPICS/Electrochemistry.zip",
+        "size": 1816.39,
+        "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FTOPICS%2FElectrochemistry.zip",
+        "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/TOPICS/Electrochemistry.zip"
+      },
+      {
+        "filename": "Electrostatics.zip",
+        "subject": "PHYSICAL SCIENCE",
+        "grade": "GRADE 12",
+        "fullPath": "PHYSICAL SCIENCE/GRADE 12/TOPICS/Electrostatics.zip",
+        "size": 1406.63,
+        "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FTOPICS%2FElectrostatics.zip",
+        "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/TOPICS/Electrostatics.zip"
+      },
+      {
+        "filename": "Newtons Laws.zip",
+        "subject": "PHYSICAL SCIENCE",
+        "grade": "GRADE 12",
+        "fullPath": "PHYSICAL SCIENCE/GRADE 12/TOPICS/Newtons Laws.zip",
+        "size": 2049.85,
+        "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FTOPICS%2FNewtons%20Laws.zip",
+        "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/TOPICS/Newtons Laws.zip"
+      },
+      {
+        "filename": "Organic Molecules.zip",
+        "subject": "PHYSICAL SCIENCE",
+        "grade": "GRADE 12",
+        "fullPath": "PHYSICAL SCIENCE/GRADE 12/TOPICS/Organic Molecules.zip",
+        "size": 4615.87,
+        "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FTOPICS%2FOrganic%20Molecules.zip",
+        "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/TOPICS/Organic Molecules.zip"
+      },
+      {
+        "filename": "Rates of Reactions.zip",
+        "subject": "PHYSICAL SCIENCE",
+        "grade": "GRADE 12",
+        "fullPath": "PHYSICAL SCIENCE/GRADE 12/TOPICS/Rates of Reactions.zip",
+        "size": 4150.29,
+        "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FTOPICS%2FRates%20of%20Reactions.zip",
+        "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/TOPICS/Rates of Reactions.zip"
+      },
+      {
+        "filename": "Winterschool PDFs.zip",
+        "subject": "PHYSICAL SCIENCE",
+        "grade": "GRADE 12",
+        "fullPath": "PHYSICAL SCIENCE/GRADE 12/TOPICS/Winterschool PDFs.zip",
+        "size": 26997.07,
+        "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FTOPICS%2FWinterschool%20PDFs.zip",
+        "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/TOPICS/Winterschool PDFs.zip"
+      },
+      {
+        "filename": "Work Energy and Power.zip",
+        "subject": "PHYSICAL SCIENCE",
+        "grade": "GRADE 12",
+        "fullPath": "PHYSICAL SCIENCE/GRADE 12/TOPICS/Work Energy and Power.zip",
+        "size": 4680.63,
+        "url": "https://d1dc40k4xbphr.cloudfront.net/MSI%20CURRICULUM%20MATERIAL%2FPHYSICAL%20SCIENCE%2FGRADE%2012%2FTOPICS%2FWork%20Energy%20and%20Power.zip",
+        "key": "MSI CURRICULUM MATERIAL/PHYSICAL SCIENCE/GRADE 12/TOPICS/Work Energy and Power.zip"
+      }
+    ]
+  }
+};

@@ -1,0 +1,11 @@
+# Set the default behavior to automatically normalize line endings
+* text=auto
+# Force LF for all JS/TS/JSON/HTML files (optional, can be tailored)
+*.js text eol=lf
+*.ts text eol=lf
+*.json text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+*.pack filter=lfs diff=lfs merge=lfs -text
+*.jpg filter=lfs diff=lfs merge=lfs -text
+*.png filter=lfs diff=lfs merge=lfs -text
