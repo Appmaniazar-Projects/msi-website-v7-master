@@ -1,11 +1,52 @@
 import { NextResponse } from 'next/server';
+import { headers } from 'next/headers';
 import nodemailer from 'nodemailer';
 
-export async function POST(request) {
+interface ContactFormData {
+  name: string;
+  email: string;
+  subject: string;
+  message: string;
+  applicationType?: string;
+}
+
+export async function POST(request: Request) {
   try {
-    const data = await request.json();
-    const { to, applicationType, ...formData } = data;
+    // Validate request origin
+    const headersList = await headers();
+    const origin = headersList.get('origin');
     
+    // Add your domain to this check
+    const allowedOrigins = [
+      'https://mathsandscienceinfinity.org.za', 
+      'http://localhost:3000',
+      process.env.NEXT_PUBLIC_AWS_DOMAIN || '',  // AWS domain
+      process.env.NEXT_PUBLIC_SITE_URL || ''     // For any other deployment URL
+    ].filter(Boolean);
+    
+    if (!origin || !allowedOrigins.some(allowed => origin.includes(allowed))) {
+      return NextResponse.json({ error: 'Unauthorized origin' }, { status: 403 });
+    }
+
+    const data: ContactFormData = await request.json();
+    
+    // Validate required fields
+    if (!data.name || !data.email || !data.subject || !data.message) {
+      return NextResponse.json(
+        { error: 'Missing required fields' },
+        { status: 400 }
+      );
+    }
+
+    // Validate email format
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailRegex.test(data.email)) {
+      return NextResponse.json(
+        { error: 'Invalid email format' },
+        { status: 400 }
+      );
+    }
+
     // Configure nodemailer with your email service
     const transporter = nodemailer.createTransport({
       host: 'mail.mathsandscienceinfinity.org.za',
@@ -24,7 +65,7 @@ export async function POST(request) {
     const formatApplicationData = () => {
       let formattedData = '';
       
-      for (const [key, value] of Object.entries(formData)) {
+      for (const [key, value] of Object.entries(data)) {
         if (value && value.toString().trim() !== '') {
           const formattedKey = key
             .replace(/([A-Z])/g, ' $1')
@@ -41,8 +82,7 @@ export async function POST(request) {
     const mailOptions = {
       from: `MSI Website <${process.env.EMAIL_USER}>`,
       to: 'info@mathsandscienceinfinity.org.za',
-      subject: `New Message from Contact Form - ${formData.subject || 'No Subject'}`,
-      text: `New contact form message received:\n\n${JSON.stringify(formData, null, 2)}`,
+      subject: `New Message from Contact Form - ${data.subject || 'No Subject'}`,
       html: `
         <h2>New Contact Form Submission</h2>
         <div>${formatApplicationData()}</div>
@@ -58,10 +98,10 @@ export async function POST(request) {
       { status: 200 }
     );
   } catch (error) {
-    console.error('Error processing application:', error);
+    console.error('Error processing contact form:', error);
     return NextResponse.json(
-      { error: 'Failed to process application' },
+      { error: 'Failed to process contact form submission' },
       { status: 500 }
     );
   }
-} 
+}
