@@ -17,8 +17,7 @@ export async function POST(request: Request) {
     const allowedOrigins = [
       'https://mathsandscienceinfinity.org.za', 
       'http://localhost:3000',
-      process.env.NEXT_PUBLIC_AWS_DOMAIN || '',  // AWS domain
-      process.env.NEXT_PUBLIC_SITE_URL || ''     // For any other deployment URL
+      'https://main.d2w26kf2mh58ov.amplifyapp.com',
     ].filter(Boolean);
     
     if (!origin || !allowedOrigins.some(allowed => origin.includes(allowed))) {
