@@ -26,16 +26,12 @@ export default function ContactPage() {
     setStatus('sending');
     
     try {
-      const response = await fetch('/api/contact', {
+      const response = await fetch('https://mt7zrjschf.execute-api.eu-west-1.amazonaws.com/prod/contact', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify({
-          ...formData,
-          to: process.env.DEFAULT_EMAIL_TO,
-          applicationType: 'contact'
-        }),
+        body: JSON.stringify(formData),
       });
       
       if (!response.ok) {
