@@ -32,7 +32,7 @@ interface FormData {
   // Volunteer specific fields
   availability?: string;
   interests?: string;
-  // Remove student fields and add career application fields
+  // Career application fields
   position?: string;
   experience?: string;
   education?: string;
@@ -44,6 +44,7 @@ interface FormData {
 }
 
 export default function GetInvolved() {
+  // State declarations
   const [isScrolled, setIsScrolled] = useState(false)
   const [showModal, setShowModal] = useState(false)
   const [applicationType, setApplicationType] = useState<ApplicationType>('tutor')
@@ -59,7 +60,6 @@ export default function GetInvolved() {
     teachingQualification: '',
     availability: '',
     interests: '',
-    // Replace grade/subjects with career fields
     position: '',
     experience: '',
     education: '',
@@ -87,146 +87,12 @@ export default function GetInvolved() {
   const [qualificationError, setQualificationError] = useState<string | null>(null)
   const [submissionSuccess, setSubmissionSuccess] = useState(false)
   const [submissionError, setSubmissionError] = useState<string | null>(null)
-  const [selectedJob, setSelectedJob] = useState<JobListing | null>(null)
-  const [showJobDetails, setShowJobDetails] = useState(false)
-  const [showApplicationForm, setShowApplicationForm] = useState(false)
-  const applicationFormRef = useRef<HTMLDivElement>(null)
+  const [selectedJob, setSelectedJob] = useState<JobListing | null>(null);
+  const [showJobDetails, setShowJobDetails] = useState(false);
+  const [showApplicationForm, setShowApplicationForm] = useState(false);
+  const applicationFormRef = useRef<HTMLDivElement>(null);
 
-  useEffect(() => {
-    // Reset form data when application type changes
-    const defaultFormData = {
-      name: formData.name || '',
-      email: formData.email || '',
-      phone: formData.phone || '',
-      // Initialize all fields with empty strings to prevent uncontrolled/controlled warning
-      mathGrade: '',
-      scienceGrade: '',
-      tertiaryQualification: '',
-      teachingQualification: '',
-      availability: '',
-      interests: '',
-      // Replace grade/subjects with career fields
-      position: '',
-      experience: '',
-      education: '',
-      coverLetter: '',
-      organization: '',
-      sponsorshipType: '',
-      message: '',
-    };
-    
-    // Only include fields relevant to the selected application type
-    if (applicationType === 'tutor') {
-      setFormData({
-        ...defaultFormData,
-        mathGrade: '',
-        scienceGrade: '',
-        tertiaryQualification: '',
-        teachingQualification: '',
-      });
-    } else if (applicationType === 'volunteer') {
-      setFormData({
-        ...defaultFormData,
-        availability: '',
-        interests: '',
-      });
-    } else if (applicationType === 'careers') {
-      setFormData({
-        ...defaultFormData,
-        position: '',
-        experience: '',
-        education: '',
-        coverLetter: '',
-      });
-    } else if (applicationType === 'sponsor') {
-      setFormData({
-        ...defaultFormData,
-        organization: '',
-        sponsorshipType: '',
-        message: '',
-      });
-    }
-    
-    // Reset all file uploads when changing application type
-    setFiles({
-      cv: null,
-      id: null,
-      workPermit: null,
-      matric: null,
-      transcript: null,
-      sace: null,
-    });
-    
-    // Clear any errors
-    setFileErrors({
-      cv: null,
-      id: null,
-      workPermit: null,
-      matric: null,
-      transcript: null,
-      sace: null,
-    });
-    setQualificationError(null);
-    setSubmissionError(null);
-  }, [applicationType]);
-
-  // Add a new useEffect to reset the form after successful submission
-  useEffect(() => {
-    if (submissionSuccess) {
-      // Reset form data to defaults after successful submission
-      const defaultFormData = {
-        name: '',
-        email: '',
-        phone: '',
-        // Initialize all fields with empty strings
-        mathGrade: '',
-        scienceGrade: '',
-        tertiaryQualification: '',
-        teachingQualification: '',
-        availability: '',
-        interests: '',
-        position: '',
-        experience: '',
-        education: '',
-        coverLetter: '',
-        organization: '',
-        sponsorshipType: '',
-        message: '',
-      };
-      
-      setFormData(defaultFormData);
-      
-      // Reset file uploads
-      setFiles({
-        cv: null,
-        id: null,
-        workPermit: null,
-        matric: null,
-        transcript: null,
-        sace: null,
-      });
-      
-      // Clear errors
-      setFileErrors({
-        cv: null,
-        id: null,
-        workPermit: null,
-        matric: null,
-        transcript: null,
-        sace: null,
-      });
-      setQualificationError(null);
-      setSubmissionError(null);
-      
-      // Reset job selection if in careers section
-      if (applicationType === 'careers') {
-        setShowJobDetails(false);
-        setShowApplicationForm(false);
-        setSelectedJob(null);
-      }
-    }
-  }, [submissionSuccess, applicationType]);
-
+  // Utility functions
   const validatePdfFile = (file: File | null): boolean => {
     if (!file) return true; // No file is valid (for optional fields)
     
@@ -237,19 +103,43 @@ export default function GetInvolved() {
     return isPdf;
   }
 
-  const handleFileChange = (fieldName: string, file: File | null) => {
-    if (file && !validatePdfFile(file)) {
-      setFileErrors(prev => ({ ...prev, [fieldName]: 'Only PDF files are accepted' }));
-      return;
-    }
-    
-    setFiles(prev => ({ ...prev, [fieldName]: file }));
-    setFileErrors(prev => ({ ...prev, [fieldName]: null }));
-  }
+const handleInputChange = (field: keyof FormData, value: string) => {
+  setFormData(prev => ({ ...prev, [field]: value }));
+};
 
-  const handleInputChange = (field: keyof FormData, value: string) => {
-    setFormData(prev => ({ ...prev, [field]: value }))
+// Job navigation handlers
+const handleBackToJobs = () => {
+  setShowJobDetails(false);
+  setShowApplicationForm(false);
+  setSelectedJob(null);
+};
+
+const handleJobSelect = (job: JobListing) => {
+  setSelectedJob(job);
+  setShowJobDetails(true);
+  setShowApplicationForm(false);
+};
+
+const handleApplyNow = () => {
+  if (selectedJob) {
+    setFormData(prev => ({ ...prev, position: selectedJob.title }));
+    setShowJobDetails(false);
+    setShowApplicationForm(true);
+    
+    // Scroll to application form
+    setTimeout(() => {
+      applicationFormRef.current?.scrollIntoView({ 
+        behavior: 'smooth',
+        block: 'start'
+      });
+    }, 100);
   }
+};
+
+const handleBackToJobDetails = () => {
+  setShowApplicationForm(false);
+  setShowJobDetails(true);
+};
 
   const checkTutorQualifications = () => {
     const mathGrade = parseInt(formData.mathGrade || '0')
@@ -269,114 +159,256 @@ export default function GetInvolved() {
     return true
   }
 
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault()
-    
-    if (applicationType === 'tutor' && !checkTutorQualifications()) {
-      return
-    }
-    
-    // Check for any file errors before submission
-    const hasFileErrors = Object.values(fileErrors).some(error => error !== null);
-    if (hasFileErrors) {
-      setSubmissionError('Please fix the file errors before submitting.');
+  // Handler functions
+  const handleFileChange = (fieldName: string, file: File | null) => {
+  const MAX_FILE_SIZE_MB = 5;
+  
+  // Clear previous errors
+  setFileErrors(prev => ({ ...prev, [fieldName]: null }));
+  
+  if (file) {
+    // Validate file size
+    if (file.size > MAX_FILE_SIZE_MB * 1024 * 1024) {
+      setFileErrors(prev => ({
+        ...prev,
+        [fieldName]: `File must be under ${MAX_FILE_SIZE_MB}MB`,
+      }));
       return;
     }
-
-    setIsSubmitting(true)
-    setSubmissionError(null)
-    setSubmissionSuccess(false) // Reset success state before submission
     
-    try {
-      // Prepare form data for submission
-      const formPayload = new FormData();
-      formPayload.append('applicationType', applicationType);
-      
-      // Append all form data
-      Object.entries(formData).forEach(([key, value]) => {
-        formPayload.append(key, value);
-      });
-      
-      // Append files based on application type
-      if (applicationType === 'tutor') {
-        // Only append files relevant to tutors
-        if (files.cv) formPayload.append('files', files.cv, `cv-${files.cv.name}`);
-        if (files.id) formPayload.append('files', files.id, `id-${files.id.name}`);
-        if (files.workPermit) formPayload.append('files', files.workPermit, `workPermit-${files.workPermit.name}`);
-        if (files.matric) formPayload.append('files', files.matric, `matric-${files.matric.name}`);
-        if (files.transcript) formPayload.append('files', files.transcript, `transcript-${files.transcript.name}`);
-        if (files.sace) formPayload.append('files', files.sace, `sace-${files.sace.name}`);
-      } else if (applicationType === 'volunteer') {
-        // Only append CV for volunteers
-        if (files.cv) formPayload.append('files', files.cv, `cv-${files.cv.name}`);
-      } else if (applicationType === 'careers') {
-        // Only append CV and ID for career applications
-        if (files.cv) formPayload.append('files', files.cv, `cv-${files.cv.name}`);
-        if (files.id) formPayload.append('files', files.id, `id-${files.id.name}`);
-      } else if (applicationType === 'sponsor') {
-        // Only append files relevant to sponsors
-        if (files.cv) formPayload.append('files', files.cv, `cv-${files.cv.name}`);
+    // Validate file type
+    if (!validatePdfFile(file)) {
+      setFileErrors(prev => ({ ...prev, [fieldName]: 'Only PDF files are accepted' }));
+      return;
+    }
+  }
+  
+  setFiles(prev => ({ ...prev, [fieldName]: file }));
+};
+
+const handleSubmit = async (e: React.FormEvent) => {
+  e.preventDefault();
+
+  if (!checkTutorQualifications()) return;
+
+  const formPayload = new FormData();
+
+  // Add all form fields
+  Object.entries(formData).forEach(([key, value]) => {
+    if (value && value.trim() !== '') {
+      formPayload.append(key, value);
+    }
+  });
+
+  // Add application type
+  formPayload.append('applicationType', applicationType);
+
+  // Append relevant files with validation
+  const fileValidationErrors: { [key: string]: string } = {};
+  
+  Object.entries(files).forEach(([key, file]) => {
+    if (file) {
+      // Double-check file size and type
+      const MAX_FILE_SIZE_MB = 5;
+      if (file.size > MAX_FILE_SIZE_MB * 1024 * 1024) {
+        fileValidationErrors[key] = `File must be under ${MAX_FILE_SIZE_MB}MB`;
+        return;
       }
       
-      console.log(`Submitting ${applicationType} application`);
-      
-      // Send data to API endpoint
-      const response = await fetch('/api/applications', {
-        method: 'POST',
-        body: formPayload,
-      })
-      
-      if (!response.ok) {
-        const errorData = await response.json().catch(() => ({ error: 'Unknown error' }));
-        console.error('Server error response:', errorData);
-        throw new Error(errorData.details || errorData.error || 'Failed to submit application');
+      if (!validatePdfFile(file)) {
+        fileValidationErrors[key] = 'Only PDF files are accepted';
+        return;
       }
       
-      const result = await response.json();
-      console.log('Submission successful:', result);
-      
-      setSubmissionSuccess(true)
-      setShowModal(true)
-    } catch (error) {
-      console.error('Error submitting application:', error)
-      setSubmissionSuccess(false)
-      setSubmissionError(error instanceof Error ? error.message : 'There was a problem submitting your application. Please try again.')
-      setShowModal(true)
-    } finally {
-      setIsSubmitting(false)
+      formPayload.append(key, file);
+    }
+  });
+
+  // Check for validation errors
+  if (Object.keys(fileValidationErrors).length > 0) {
+    setFileErrors(prev => ({ ...prev, ...fileValidationErrors }));
+    setSubmissionError('Please fix the file errors before submitting.');
+    return;
+  }
+
+  // Check if required files are present for tutor applications
+  if (applicationType === 'tutor') {
+    const requiredFiles = ['cv', 'id', 'matric', 'transcript'];
+    const missingFiles = requiredFiles.filter(field => !files[field]);
+    
+    if (missingFiles.length > 0) {
+      setSubmissionError(`Please upload all required documents: ${missingFiles.join(', ')}`);
+      return;
     }
   }
 
-  const handleJobSelect = (job: JobListing) => {
-    setSelectedJob(job)
-    setShowJobDetails(true)
-    setShowApplicationForm(false)
-  }
-
-  const handleApplyNow = () => {
-    if (selectedJob) {
-      setFormData({
-        ...formData,
-        position: selectedJob.title
-      })
-      setShowApplicationForm(true)
-      
-      // Wait for state update and then scroll
-      setTimeout(() => {
-        applicationFormRef.current?.scrollIntoView({ behavior: 'smooth' })
-      }, 100)
+  // Check if required files are present for career applications
+  if (applicationType === 'careers') {
+    const requiredFiles = ['cv', 'id'];
+    const missingFiles = requiredFiles.filter(field => !files[field]);
+    
+    if (missingFiles.length > 0) {
+      setSubmissionError(`Please upload all required documents: ${requiredFiles.join(', ')}`);
+      return;
     }
   }
 
-  const handleBackToJobs = () => {
-    setShowJobDetails(false)
-    setShowApplicationForm(false)
-    setSelectedJob(null)
+  setIsSubmitting(true);
+  setSubmissionError(null);
+  setSubmissionSuccess(false);
+
+  try {
+    console.log('Submitting form with data:', {
+      applicationType,
+      formDataEntries: Object.fromEntries(
+        Object.entries(formData).filter(([_, value]) => value && value.trim() !== '')
+      ),
+      fileNames: Object.entries(files)
+        .filter(([_, file]) => file)
+        .map(([key, file]) => `${key}: ${file?.name}`)
+    });
+
+    const response = await fetch('https://acmts6q2i2.execute-api.eu-west-1.amazonaws.com/prod/applicationFormHandler', {
+      method: 'POST',
+      body: formPayload,
+    });
+
+    console.log('Response received:', {
+      status: response.status,
+      statusText: response.statusText,
+      ok: response.ok,
+      url: response.url,
+      headers: Object.fromEntries(response.headers.entries())
+    });
+
+    if (!response.ok) {
+      const responseText = await response.text();
+      console.warn("Raw response text:", responseText);
+      console.warn("Text length:", responseText.length);
+      console.warn("Status code:", response.status);
+
+      let errorData: any = {};
+
+      if (responseText && responseText.trim()) {
+        try {
+          errorData = JSON.parse(responseText);
+          console.log("Parsed error data:", errorData);
+        } catch (parseError) {
+          console.error("Failed to parse error response as JSON:", parseError);
+          errorData = {
+            error: responseText,
+            rawResponse: responseText,
+          };
+        }
+      } else {
+        console.warn("Empty response body received");
+        errorData = {
+          error: `HTTP ${response.status}: ${response.statusText}`,
+          emptyResponse: true,
+          status: response.status,
+          statusText: response.statusText,
+        };
+      }
+
+      console.error("Final error data object:", errorData);
+
+      // Generate a user-friendly error message
+      let errorMessage = "Failed to submit application";
+
+      if (errorData.details) {
+        errorMessage = errorData.details;
+      } else if (errorData.error && errorData.error !== "Unknown error") {
+        errorMessage = errorData.error;
+      } else if (errorData.message) {
+        errorMessage = errorData.message;
+      } else if (response.status === 404) {
+        errorMessage = "The submission endpoint was not found. Please contact support.";
+      } else if (response.status === 500) {
+        errorMessage = "Internal server error. Please try again later or contact support.";
+      } else if (response.status === 413) {
+        errorMessage = "Files too large. Please reduce file sizes and try again.";
+      } else if (response.status === 400) {
+        errorMessage = "Invalid form data. Please check your inputs and try again.";
+      } else if (response.status >= 500) {
+        errorMessage = "Server error occurred. Please try again later.";
+      } else if (response.status >= 400) {
+        errorMessage = `Request error (${response.status}). Please check your data and try again.`;
+      } else {
+        errorMessage = `Unexpected error: ${response.status} ${response.statusText}`;
+      }
+
+      throw new Error(errorMessage);
+    }
+
+    // Handle successful response
+    const result = await response.json();
+    console.log('Submission successful:', result);
+    setSubmissionSuccess(true);
+    setShowModal(true);
+    
+    // Reset form after successful submission
+    setFormData({
+      name: '',
+      email: '',
+      phone: '',
+      mathGrade: '',
+      scienceGrade: '',
+      tertiaryQualification: '',
+      teachingQualification: '',
+      availability: '',
+      interests: '',
+      position: '',
+      experience: '',
+      education: '',
+      coverLetter: '',
+      organization: '',
+      sponsorshipType: '',
+      message: '',
+    });
+    
+    setFiles({
+      cv: null,
+      id: null,
+      workPermit: null,
+      matric: null,
+      transcript: null,
+      sace: null,
+    });
+    
+  } catch (error) {
+    console.error('Complete error details:', {
+      name: error?.name,
+      message: error?.message,
+      stack: error?.stack,
+      error: error
+    });
+    
+    setSubmissionSuccess(false);
+    
+    let displayError = 'There was a problem submitting your application.';
+    
+    if (error instanceof Error) {
+      displayError = error.message;
+    } else if (typeof error === 'string') {
+      displayError = error;
+    }
+    
+    // Additional context for common network errors
+    if (error?.name === 'TypeError' && error?.message?.includes('fetch')) {
+      displayError = 'Network error. Please check your internet connection and try again.';
+    }
+    
+    setSubmissionError(displayError);
+    setShowModal(true);
+    
+  } finally {
+    setIsSubmitting(false);
   }
 
-  const handleBackToJobDetails = () => {
-    setShowApplicationForm(false)
-  }
+};
+
+
+
 
   return (
     <div className="min-h-screen bg-gray-50">
