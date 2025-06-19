@@ -52,7 +52,7 @@ const Footer = () => {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true }}
-          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-[1.2fr_1fr_1.8fr_1fr] gap-6"
+          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-[1.2fr_1fr_1.2fr_1.2fr] gap-6"
         >
           {/* Logo and Description */}
           <motion.div variants={fadeInUp} className="space-y-4">

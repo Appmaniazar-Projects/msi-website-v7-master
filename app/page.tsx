@@ -257,7 +257,7 @@ export default function Home() {
               size="lg"
               className="bg-red-600 text-white hover:bg-red-700"
             >
-              <Link href="/contact">
+              <Link href="/get-involved">
                 Get Involved
               </Link>
             </Button>

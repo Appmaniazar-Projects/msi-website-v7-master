@@ -962,15 +962,6 @@ const handleSubmit = async (e: React.FormEvent) => {
                     >
                       {isSubmitting ? 'Submitting...' : 'Submit Application'}
                     </Button>
-                    
-                    <div className="text-sm text-gray-600">
-                      <p>For inquiries, please contact:</p>
-                      <p>073 230 5457 / 073 174 5664</p>
-                      <p>Applications will be sent to: careers@mathsandscienceinfinity.org.za</p>
-                      {applicationType === 'tutor' && (
-                        <p className="mt-2">Note: Shortlisted tutor applicants will be invited for an induction and content workshop.</p>
-                      )}
-                    </div>
                   </div>
                 </form>
               )}
