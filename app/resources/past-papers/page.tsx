@@ -86,8 +86,8 @@ export default function PastPapersPage() {
             </p>
           </motion.div>
 
-          {/* Search and Filter Section */}
-          <SearchAndFilter />
+          {/* Search and Filter Section 
+          <SearchAndFilter />*/}
 
           {/* Subject Selection */}
           <motion.div
