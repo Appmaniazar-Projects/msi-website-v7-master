@@ -2,8 +2,9 @@
 
 import { useState, useEffect, useCallback } from 'react'
 import useEmblaCarousel from 'embla-carousel-react'
-import { motion } from 'framer-motion'
+import { motion, AnimatePresence } from 'framer-motion'
 import Image from 'next/image'
+import { ChevronLeft, ChevronRight } from 'lucide-react'
 
 const testimonials = [
   { image: 'https://d1dc40k4xbphr.cloudfront.net/images/testimonials/msi-testimonial-1.jpg' },
@@ -14,16 +15,15 @@ const testimonials = [
   { image: 'https://d1dc40k4xbphr.cloudfront.net/images/testimonials/msi-testimonial-6.jpeg' },
 ]
 
-const Testimonials = () => {
-  const [emblaRef, emblaApi] = useEmblaCarousel({ 
-    loop: true,
-    dragFree: true,
-    align: 'center',
-    containScroll: 'trimSnaps'
-  })
+export default function Testimonials() {
+  const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true, align: 'center', containScroll: 'trimSnaps' })
   const [selectedIndex, setSelectedIndex] = useState(0)
+  const [mounted, setMounted] = useState(false)
   const [modalOpen, setModalOpen] = useState(false)
-  const [selectedImage, setSelectedImage] = useState('')
+  const [selectedImage, setSelectedImage] = useState<string | null>(null)
+
+  const scrollPrev = () => emblaApi?.scrollPrev()
+  const scrollNext = () => emblaApi?.scrollNext()
 
   const onSelect = useCallback(() => {
     if (!emblaApi) return
@@ -31,92 +31,89 @@ const Testimonials = () => {
   }, [emblaApi])
 
   useEffect(() => {
+    setMounted(true)
     if (!emblaApi) return
     onSelect()
     emblaApi.on('select', onSelect)
     emblaApi.on('reInit', onSelect)
   }, [emblaApi, onSelect])
 
-  const openModal = (image) => {
-    setSelectedImage(image)
-    setModalOpen(true)
-    // Prevent background scrolling when modal is open
-    document.body.style.overflow = 'hidden'
-  }
-
-  const closeModal = () => {
-    setModalOpen(false)
-    // Re-enable scrolling when modal is closed
-    document.body.style.overflow = 'auto'
-  }
-
-  // Close modal when Escape key is pressed
+  // Handle modal side-effects
   useEffect(() => {
-    const handleEsc = (event) => {
-      if (event.key === 'Escape') closeModal()
-    }
-    window.addEventListener('keydown', handleEsc)
-    
-    return () => {
-      window.removeEventListener('keydown', handleEsc)
-      // Make sure scrolling is re-enabled when component unmounts
+    if (modalOpen) {
+      document.body.style.overflow = 'hidden'
+    } else {
       document.body.style.overflow = 'auto'
     }
-  }, [])
+    return () => {
+      document.body.style.overflow = 'auto'
+    }
+  }, [modalOpen])
 
   return (
     <section className="py-20 bg-gradient-to-b from-white to-gray-50">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-3xl font-bold mb-12 text-navy-blue">What Our Beneficiaries Says</h2>
+          <h2 className="text-3xl font-bold mb-12 text-navy-blue">What Our Beneficiaries Say</h2>
         </div>
 
-        {/* Carousel */}
-        <div className="embla overflow-hidden max-w-7xl mx-auto" ref={emblaRef}>
-          <div className="embla__container flex">
-            {testimonials.map((testimonial, index) => (
-              <div 
-                key={index} 
-                className="flex-[0_0_100%] min-w-0 md:flex-[0_0_50%] lg:flex-[0_0_33.33%] px-4 py-4"
+        {/* Carousel with navigation */}
+        <div className="relative group max-w-6xl mx-auto">
+          {mounted && (
+            <>
+              <button
+                onClick={scrollPrev}
+                className="absolute left-0 top-0 bottom-0 z-10 w-12 md:w-16 bg-gradient-to-r from-gray-900/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-start pl-2"
+                aria-label="Scroll left"
               >
-                <motion.div 
+                <ChevronLeft className="w-8 h-8 text-white" />
+              </button>
+
+              <button
+                onClick={scrollNext}
+                className="absolute right-0 top-0 bottom-0 z-10 w-12 md:w-16 bg-gradient-to-l from-gray-900/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-end pr-2"
+                aria-label="Scroll right"
+              >
+                <ChevronRight className="w-8 h-8 text-white" />
+              </button>
+            </>
+          )}
+
+          <div ref={emblaRef} className="overflow-hidden">
+            <div className="flex">
+              {testimonials.map((testimonial, index) => (
+                <motion.div
+                  key={index}
+                  className="flex-[0_0_100%] sm:flex-[0_0_50%] lg:flex-[0_0_33.33%] px-4 cursor-pointer"
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.5, delay: index * 0.1 }}
-                  className="h-full transform hover:-translate-y-2 transition-all duration-300 hover:shadow-xl flex justify-center items-center cursor-pointer"
-                  onClick={() => openModal(testimonial.image)}
+                  onClick={() => {
+                    setSelectedImage(testimonial.image)
+                    setModalOpen(true)
+                  }}
                 >
-                  <div className="relative w-full h-64 group">
-                    <Image 
-                      src={testimonial.image} 
+                  <div className="relative w-full h-64 rounded-lg overflow-hidden shadow-md">
+                    <Image
+                      src={testimonial.image}
                       alt={`Testimonial ${index + 1}`}
                       fill
                       className="object-cover"
                     />
-                    <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-300 flex items-center justify-center">
-                      <div className="text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                        <svg xmlns="http://www.w3.org/2000/svg" className="h-12 w-12" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-                        </svg>
-                        <p className="mt-2 font-medium">View Full Image</p>
-                      </div>
-                    </div>
                   </div>
                 </motion.div>
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
         </div>
 
-        {/* Pagination Dots */}
+        {/* Pagination dots */}
         <div className="flex justify-center mt-10 space-x-2">
           {testimonials.map((_, index) => (
             <button
               key={index}
               className={`transition-all duration-300 ${
-                selectedIndex === index 
-                  ? 'w-8 bg-red-600' 
-                  : 'w-2 bg-gray-300 hover:bg-gray-400'
+                selectedIndex === index ? 'w-8 bg-red-600' : 'w-2 bg-gray-300 hover:bg-gray-400'
               } h-2 rounded-full`}
               onClick={() => emblaApi?.scrollTo(index)}
               aria-label={`Go to testimonial ${index + 1}`}
@@ -125,35 +122,48 @@ const Testimonials = () => {
         </div>
       </div>
 
-      {/* Modal for full image view */}
-      {modalOpen && (
-        <div className="fixed inset-0 z-50 bg-black bg-opacity-80 flex items-center justify-center p-4" onClick={closeModal}>
-          <div className="relative max-w-4xl max-h-screen w-full" onClick={e => e.stopPropagation()}>
-            {/* Close button */}
-            <button 
-              onClick={closeModal}
-              className="absolute top-4 right-4 z-10 bg-white rounded-full p-1 text-gray-800 hover:text-red-600 transition-colors"
-              aria-label="Close modal"
+      {/* Modal to view full image */}
+      <AnimatePresence>
+        {modalOpen && selectedImage && (
+          <motion.div
+            className="fixed inset-0 bg-black/80 z-50 flex items-center justify-center p-4"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            onClick={() => setModalOpen(false)}
+          >
+            <motion.div
+              className="relative max-w-4xl w-full rounded-lg overflow-hidden"
+              initial={{ scale: 0.9, opacity: 0 }}
+              animate={{ scale: 1, opacity: 1 }}
+              exit={{ scale: 0.9, opacity: 0 }}
+              transition={{ type: 'spring', stiffness: 300, damping: 30 }}
+              onClick={(e) => e.stopPropagation()}
             >
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-              </svg>
-            </button>
-            
-            {/* Image container */}
-            <div className="relative w-full h-screen max-h-[80vh]">
-              <Image 
-                src={selectedImage} 
-                alt="Full size testimonial image"
-                fill
-                className="object-contain"
-              />
-            </div>
-          </div>
-        </div>
-      )}
+              {/* Close Button */}
+              <button
+                onClick={() => setModalOpen(false)}
+                className="absolute top-4 right-4 bg-white/20 hover:bg-red-600 text-white rounded-full p-2 z-10"
+                aria-label="Close"
+              >
+                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                </svg>
+              </button>
+
+              <div className="relative w-full" style={{ height: '70vh' }}>
+                <Image
+                  src={selectedImage}
+                  alt="Full testimonial image"
+                  fill
+                  className="object-contain"
+                  priority
+                />
+              </div>
+            </motion.div>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </section>
   )
 }
-
-export default Testimonials
