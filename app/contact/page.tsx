@@ -279,8 +279,10 @@ export default function ContactPage() {
                         <li key={detail.info} className="flex items-center space-x-4">
                           <span>{detail.icon}</span>
                           <span>
-                            <a href={detail.href}>
-                              {detail.info}
+                            <a href={detail.href} 
+                            target="_blank" 
+                            rel="noopener noreferrer">
+                            {detail.info}
                             </a>
                           </span>
                         </li>
