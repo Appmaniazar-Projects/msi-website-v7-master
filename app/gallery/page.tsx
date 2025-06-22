@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useEffect, useRef } from 'react'
+import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import Image from 'next/image'
 import Header from '@/components/Header'
@@ -16,22 +16,23 @@ const fadeIn = {
 export default function Gallery() {
   const [selectedImage, setSelectedImage] = useState<null | typeof galleryImages[0]>(null)
   const [isMobile, setIsMobile] = useState(false)
+  const [hasMounted, setHasMounted] = useState(false)
+  const [viewMode, setViewMode] = useState<'all' | 'categories'>('all')
 
-  // Check if we're on a mobile device for responsive adjustments
+  // Client-only rendering to prevent hydration error
   useEffect(() => {
-    const checkMobile = () => {
-      setIsMobile(window.innerWidth < 768)
-    }
-    
+    const checkMobile = () => setIsMobile(window.innerWidth < 768)
     checkMobile()
+    setHasMounted(true)
     window.addEventListener('resize', checkMobile)
     return () => window.removeEventListener('resize', checkMobile)
   }, [])
 
+  if (!hasMounted) return null
+
   // Group images by category
   const imagesByCategory = categories.reduce((acc, category) => {
     if (category.id === 'all') return acc
-    
     acc[category.id] = galleryImages.filter(img => img.category === category.id)
     return acc
   }, {} as Record<string, typeof galleryImages>)
@@ -42,7 +43,6 @@ export default function Gallery() {
 
       {/* Hero Section */}
       <section className="relative pt-20 md:pt-32 pb-16 md:pb-20 text-navy-blue overflow-hidden">
-        <div className="absolute inset-0"></div>
         <div className="container relative mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center">
             <motion.h1 
@@ -64,33 +64,71 @@ export default function Gallery() {
             </motion.p>
           </div>
         </div>
-        <div className="absolute bottom-0 left-0 right-0 h-16 bg-gradient-to-t from-gray-50"></div>
       </section>
+
+      {/* Filter Buttons */}
+      <div className="container mx-auto px-4 mb-10">
+        <div className="flex justify-center gap-4">
+          {['all', 'categories'].map(mode => (
+            <button
+              key={mode}
+              onClick={() => setViewMode(mode as 'all' | 'categories')}
+              className={`px-4 py-2 rounded-full border transition-colors ${
+                viewMode === mode
+                  ? 'bg-red-600 text-white border-red-600'
+                  : 'bg-white text-gray-700 border-gray-300 hover:border-red-400'
+              }`}
+            >
+              {mode === 'all' ? 'All Images' : 'Categories'}
+            </button>
+          ))}
+        </div>
+      </div>
 
       {/* Gallery Section */}
-      <section className="py-8 md:py-12">
-        <div className="container mx-auto px-4">
-          {Object.entries(imagesByCategory).map(([categoryId, images]) => {
-            if (images.length === 0) return null
-            
-            const categoryName = categories.find(c => c.id === categoryId)?.name || ''
-            
-            return (
-              <div key={categoryId} className="mb-12 md:mb-16">
-                <h2 className="text-2xl md:text-3xl font-bold text-navy-blue mb-6">{categoryName}</h2>
-                <HorizontalSlider
-                  images={images}
-                  title=""
-                  onImageClick={setSelectedImage}
-                  className="mb-4"
+      {viewMode === 'all' ? (
+        <section className="py-8 md:py-12">
+          <div className="container mx-auto px-4 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
+            {galleryImages.map((img, index) => (
+              <div
+                key={index}
+                className="relative w-full aspect-square cursor-pointer overflow-hidden rounded-lg shadow-sm hover:shadow-md"
+                onClick={() => setSelectedImage(img)}
+              >
+                <Image
+                  src={img.src}
+                  alt={img.alt}
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 768px) 50vw, 25vw"
                 />
               </div>
-            )
-          })}
-        </div>
-      </section>
+            ))}
+          </div>
+        </section>
+      ) : (
+        <section className="py-8 md:py-12">
+          <div className="container mx-auto px-4">
+            {Object.entries(imagesByCategory).map(([categoryId, images]) => {
+              if (images.length === 0) return null
+              const categoryName = categories.find(c => c.id === categoryId)?.name || ''
+              return (
+                <div key={categoryId} className="mb-12 md:mb-16">
+                  <h2 className="text-2xl md:text-3xl font-bold text-navy-blue mb-6">{categoryName}</h2>
+                  <HorizontalSlider
+                    images={images}
+                    title=""
+                    onImageClick={setSelectedImage}
+                    className="mb-4"
+                  />
+                </div>
+              )
+            })}
+          </div>
+        </section>
+      )}
 
-      {/* Enhanced Image Modal with Pop Effect */}
+      {/* Modal for full image view */}
       <AnimatePresence>
         {selectedImage && (
           <motion.div
@@ -105,17 +143,9 @@ export default function Gallery() {
               animate={{ 
                 scale: 1, 
                 opacity: 1,
-                transition: { 
-                  type: "spring", 
-                  stiffness: 300, 
-                  damping: 30 
-                } 
+                transition: { type: "spring", stiffness: 300, damping: 30 } 
               }}
-              exit={{ 
-                scale: 0.5, 
-                opacity: 0,
-                transition: { duration: 0.3 } 
-              }}
+              exit={{ scale: 0.5, opacity: 0, transition: { duration: 0.3 } }}
               className="relative max-w-5xl w-full max-h-[90vh] md:max-h-[85vh] rounded-lg overflow-hidden"
               onClick={e => e.stopPropagation()}
             >
