@@ -1,9 +1,13 @@
+import Script from 'next/script'
 import './globals.css'
 import { Inter } from 'next/font/google'
 import BackToTop from '@/components/BackToTop'
 import WhatsAppButton from '@/components/WhatsAppButton'
 import { siteConfig } from './metadata'
 import { Metadata, Viewport } from 'next'
+import { GA_MEASUREMENT_ID } from '@/lib/gtag'
+import Analytics from './analytics'
+
 
 const inter = Inter({ 
   subsets: ['latin'],
@@ -68,11 +72,8 @@ export const metadata: Metadata = {
   },
 }
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode
-}) {
+
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
       <head>
@@ -80,30 +81,33 @@ export default function RootLayout({
         {Object.values(siteConfig.links).map((url, index) => (
           <link key={index} rel="me" href={url} />
         ))}
-        <script dangerouslySetInnerHTML={{
-          __html: `
-            (function() {
-              try {
-                // Remove attributes added by browser extensions that might cause hydration errors
-                if (typeof window !== 'undefined') {
-                  window.addEventListener('DOMContentLoaded', function() {
-                    const body = document.body;
-                    if (body.hasAttribute('cz-shortcut-listen')) {
-                      body.removeAttribute('cz-shortcut-listen');
-                    }
-                  });
-                }
-              } catch (e) {
-                console.error('Error in cleanup script:', e);
-              }
-            })();
-          `
-        }} />
+
+        {/* ✅ Google Analytics */}
+        <Script
+          strategy="afterInteractive"
+          src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
+        />
+        <Script
+          id="gtag-init"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', '${GA_MEASUREMENT_ID}', {
+                page_path: window.location.pathname,
+              });
+            `,
+          }}
+        />
+
+        {/* Existing cleanup script */}
+        <script dangerouslySetInnerHTML={{ __html: `...` }} />
       </head>
       <body className={inter.className} suppressHydrationWarning>
-        <main>
-          {children}
-        </main>
+        <main>{children}</main>
+        <Analytics />
         <BackToTop />
         <WhatsAppButton />
       </body>
