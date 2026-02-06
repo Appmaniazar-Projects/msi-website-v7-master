@@ -123,13 +123,13 @@ const Footer = () => {
                 <a 
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://maps.app.goo.gl/qUpZ8p9zCyEu1WSf8" 
+                  href="https://maps.app.goo.gl/cGiaMgeZgKoKLj6W6" 
                   className="hover:text-red-500 transition-colors duration-300"
                 >
                   <span className="block">
-                    4th Floor, West Tower,<br />
-                    Nelson Mandela Square,<br />
-                    Sandton City, Johannesburg
+                    Cedar Office Estate, <br />
+                    Cnr Cedar &amp; Stinkwood Close<br />
+                    Block 6, Fourways, Johannesburg
                   </span>
                 </a>
               </li>

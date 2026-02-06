@@ -32,6 +32,15 @@ export const metadata: Metadata = {
   keywords: siteConfig.keywords,
   authors: [{ name: 'MSI Team' }],
   creator: 'MSI Team',
+  applicationName: 'MSI Education Platform',
+  category: 'education',
+  classification: 'Education',
+  referrer: 'strict-origin-when-cross-origin',
+  formatDetection: {
+    email: true,
+    address: true,
+    telephone: true,
+  },
   openGraph: {
     type: 'website',
     locale: 'en_ZA',
@@ -56,13 +65,14 @@ export const metadata: Metadata = {
   robots: {
     index: true,
     follow: true,
+    nocache: true,
     googleBot: {
       index: true,
       follow: true,
       'max-video-preview': -1,
       'max-image-preview': 'large',
       'max-snippet': -1,
-    },
+    }
   },
   manifest: '/manifest.json',
   icons: {
@@ -70,6 +80,11 @@ export const metadata: Metadata = {
     shortcut: '/favicon.ico',
     apple: '/apple-touch-icon.png',
   },
+  // TODO: Add verification codes once you have access to Google Search Console & Yandex
+  // verification: {
+  //   google: 'your-google-verification-code',
+  //   yandex: 'your-yandex-verification-code',
+  // },
 }
 
 
@@ -81,6 +96,79 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         {Object.values(siteConfig.links).map((url, index) => (
           <link key={index} rel="me" href={url} />
         ))}
+
+        {/* ✅ JSON-LD Structured Data - Organization Schema */}
+        <Script
+          id="schema-organization"
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              "name": siteConfig.organization.name,
+              "url": siteConfig.url,
+              "logo": siteConfig.logo,
+              "description": siteConfig.description,
+              "founded": siteConfig.organization.founded,
+              "areaServed": siteConfig.organization.location,
+              "contactPoint": {
+                "@type": "ContactPoint",
+                "contactType": "Customer Service",
+                "email": siteConfig.organization.contact.email
+              },
+              "sameAs": [
+                siteConfig.links.facebook,
+                siteConfig.links.twitter,
+                siteConfig.links.instagram
+              ]
+            })
+          }}
+        />
+
+        {/* ✅ JSON-LD Structured Data - LocalBusiness Schema */}
+        <Script
+          id="schema-localbusiness"
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "LocalBusiness",
+              "name": siteConfig.organization.name,
+              "image": siteConfig.ogImage,
+              "description": siteConfig.description,
+              "url": siteConfig.url,
+              "telephone": siteConfig.organization.contact.phone,
+              "email": siteConfig.organization.contact.email,
+              "areaServed": siteConfig.organization.location,
+              "priceRange": "Free - Premium"
+            })
+          }}
+        />
+
+        {/* ✅ JSON-LD Structured Data - EducationalOrganization Schema */}
+        <Script
+          id="schema-education"
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": ["Organization", "EducationalOrganization"],
+              "name": siteConfig.organization.name,
+              "url": siteConfig.url,
+              "logo": siteConfig.logo,
+              "description": siteConfig.description,
+              "educationalCredentialAwarded": "STEM Education Certification",
+              "isAccreditedBy": {
+                "@type": "Organization",
+                "name": "South African Education Standards"
+              },
+              "potentialAction": {
+                "@type": "EnrollAction",
+                "target": siteConfig.url
+              }
+            })
+          }}
+        />
 
         {/* ✅ Google Analytics */}
         <Script
